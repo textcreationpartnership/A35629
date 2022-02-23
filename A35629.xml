@@ -1,0 +1,612 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The accomplished commander being necessary instructions for the prudent conduct of officers in an army / written by a person of great experience in military affairs, and published for the common benefit, by R.C.</title>
+            <author>Person of great experience in military affairs.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1689</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 89 KB of XML-encoded text transcribed from 75 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35629</idno>
+            <idno type="STC">Wing C96</idno>
+            <idno type="STC">ESTC R3979</idno>
+            <idno type="EEBO-CITATION">12268788</idno>
+            <idno type="OCLC">ocm 12268788</idno>
+            <idno type="VID">58158</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35629)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 58158)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 622:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The accomplished commander being necessary instructions for the prudent conduct of officers in an army / written by a person of great experience in military affairs, and published for the common benefit, by R.C.</title>
+                  <author>Person of great experience in military affairs.</author>
+                  <author>R. C.</author>
+               </titleStmt>
+               <extent>[12], 136 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for J. Taylor ..., and S. Holford ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1689.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: prelim. p. [12].</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>England and Wales. --  Army --  Regulations.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:58158:1"/>
+            <p>THE <hi>Accompliſhed Commander.</hi>
+            </p>
+            <p>Being Neceſſary INSTRUCTIONS FOR THE Prudent Conduct OF OFFICERS IN AN ARMY.</p>
+            <p>Written by a Perſon of great Ex<g ref="char:EOLhyphen"/>perience in Military Affairs, and pub<g ref="char:EOLhyphen"/>liſhed for the common Benefit, By <hi>R. C.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>J. Taylor</hi> at the Ship in St. <hi>Paul</hi>'s Church-yard, and <hi>S. Holford</hi> at the Crown in the Pall Mall. 1689.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:58158:2"/>
+            <pb facs="tcp:58158:2"/>
+            <head>The Preface.</head>
+            <p>MY Zeal to ob<g ref="char:EOLhyphen"/>lige the World (though it has ſtill been unkind to me) has tempted me to be un<g ref="char:EOLhyphen"/>juſt to my Friend, in publiſhing this his admi<g ref="char:EOLhyphen"/>rable Work without his knowledge: For his Oc<g ref="char:EOLhyphen"/>caſions having called him beyond the Seas, I took this Opportunity of prin<g ref="char:EOLhyphen"/>ting it, to which I could
+<pb facs="tcp:58158:3"/>never as yet obtain his Conſent. But to make ſome Attonement for my Fault, I diſcover hereby the Authour's great Mo<g ref="char:EOLhyphen"/>deſty, as well as you, in the Peruſal hereof, will find his ſolid Learning, and judicious Obſervati<g ref="char:EOLhyphen"/>ons in all things relating to a good Soldier: To theſe let me add, that his other Vertues are ſo con<g ref="char:EOLhyphen"/>ſpicuous in the conduct of his Life, and his Know<g ref="char:EOLhyphen"/>ledge and Experience in
+<pb facs="tcp:58158:3"/>Military Affairs ſo exqui<g ref="char:EOLhyphen"/>ſite, that thoſe who have been ſo happy to enjoy his admirable Converſa<g ref="char:EOLhyphen"/>tion in his ſeveral Mar<g ref="char:EOLhyphen"/>ches and Camps up and down in the World, will be apt to ſay, That the Character which he has ſo ingeniouſly painted out, of an accompliſhed Com<g ref="char:EOLhyphen"/>mander in an Army, may not improperly be attri<g ref="char:EOLhyphen"/>buted to the Authour.</p>
+            <p>After a long Conteſt which I had within my
+<pb facs="tcp:58158:4"/>ſelf, betwixt my Reſpect to my Friend, and the Temptation I had to gra<g ref="char:EOLhyphen"/>tifie the Publick with a ſight of this ſmall but excellent Treatiſe, I up<g ref="char:EOLhyphen"/>braided my ſelf not much unlike the poor Lepers of <hi>Samaria,</hi> when they had found the Treaſures, and taſted of the Stores of Proviſions the <hi>Aſſyrians</hi> had left in their Camp, at their haſty Flight from thence; <hi>Shall we,</hi> cried theſe Lepers, <hi>conceal this
+<pb facs="tcp:58158:4"/>great good, and not communicate it to the famiſhed Inhabitants of our City?</hi> So, <hi>Shall I,</hi> argued I with my ſelf, <hi>at a time when we have ſuch Armies in the Field, not only at home, but in other Countries, where this Treaſure may be ſo acceptable, and of ſuch great Ad<g ref="char:EOLhyphen"/>vantage amongſt them, keep it lockt up in Ob<g ref="char:EOLhyphen"/>ſcurity?</hi> Theſe and the like Thoughts were ſuffi<g ref="char:EOLhyphen"/>cient
+<pb facs="tcp:58158:5"/>Motives to prevail with me for its publica<g ref="char:EOLhyphen"/>tion.</p>
+            <p>But were I ſure to ob<g ref="char:EOLhyphen"/>tain my Friend's Pardon, for this breach of Truſt, which I do not much doubt, for I am confident I ſhall gain Advocates enough to plead in my behalf; and becauſe the Piece in it ſelf is ſuch, that ſome of our beſt Pens need not bluſh to own; yet I can never hope it, for permitting it to come
+<pb facs="tcp:58158:5"/>forth thus diſguiſed and blemiſhed with Faults, merely through the un<g ref="char:EOLhyphen"/>skilfulneſs of the Tran<g ref="char:EOLhyphen"/>ſcriber; For my part, I can make but too juſt an Apology for my ſelf here<g ref="char:EOLhyphen"/>in; for, ever ſince I de<g ref="char:EOLhyphen"/>livered the Copy to the Bookseller, my own trou<g ref="char:EOLhyphen"/>bleſome Affairs have un<g ref="char:EOLhyphen"/>happily diverted me from taking that due Care of it which I ought to have done, either by review<g ref="char:EOLhyphen"/>ing it before it went to
+<pb facs="tcp:58158:6"/>the Preſs, or preven<g ref="char:EOLhyphen"/>ting its being ſo pub<g ref="char:EOLhyphen"/>liſhed; ſo that it hap<g ref="char:EOLhyphen"/>pens to be printed with many groſs Errours, par<g ref="char:EOLhyphen"/>ticularly amongſt the pro<g ref="char:EOLhyphen"/>per Names, ſome of which I have rectified in an <hi>Er<g ref="char:EOLhyphen"/>rata</hi> for the preſent; and promiſe beforehand, that if it bear another Impreſ<g ref="char:EOLhyphen"/>ſion, I ſhall be very in<g ref="char:EOLhyphen"/>duſtrious to make it ap<g ref="char:EOLhyphen"/>pear very correct, and in its native Beauty.</p>
+            <closer>
+               <signed>R. C.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:58158:6"/>
+            <head>The Contents.</head>
+            <list>
+               <item>OF War, <hi>Page 1.</hi>
+               </item>
+               <item>Preparation for War, <hi>Page 9.</hi>
+               </item>
+               <item>How Commanders ought to be qualified, <hi>Page 17.</hi>
+               </item>
+               <item>How to gain and keep the Love of Soldiers, <hi>Page 29.</hi>
+               </item>
+               <item>Of Wiſdom and Policy in War, with Examples thereof, <hi>Page 35.</hi>
+               </item>
+               <item>Of Courage and Valour in War, with Examples thereof, <hi>Page 49.</hi>
+               </item>
+               <item>Of Strategems in War, with Examples thereof, <hi>Page 65.</hi>
+               </item>
+               <item>Of Expedition and Reſolution in War, <hi>Page 76.</hi>
+               </item>
+               <item>Of Errours in War and the evil Conſequences thereof, <hi>Page 88.</hi>
+               </item>
+               <item>
+                  <pb facs="tcp:58158:7"/>Of honourable Retreats, with Examples thereof, <hi>Page 95.</hi>
+               </item>
+               <item>Of Temperance and Chaſtity, in War, with Examples thereof, <hi>Page 99.</hi>
+               </item>
+               <item>Compaſſion in War, <hi>Page 108.</hi>
+               </item>
+               <item>Of Fame gotten in War, with Examples thereof, <hi>Page 116.</hi>
+               </item>
+               <item>Of Monarchy, <hi>Page 124.</hi>
+               </item>
+               <item>Experience in Arms, is the Original of true Nobility, <hi>Page 129.</hi>
+               </item>
+            </list>
+         </div>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>Page 51. read <hi>Calliſthenes, Lyſimachus.</hi> p. 59. r. <hi>then the beſt. Priſoner home by.</hi> p. 61. r. <hi>Aemy<g ref="char:EOLhyphen"/>ties have.</hi> p. 63. r. <hi>Gauls. Cyrnbri.</hi> p. 80. r. <hi>Le<g ref="char:EOLhyphen"/>rida.</hi> p. 81. r. <hi>Munda. Corduba.</hi> p. 89. r. <hi>three great.</hi> p. 112. r. <hi>Craſus taken.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:58158:7"/>
+            <head>OF WAR.</head>
+            <p>AFter a long ſcene of Peace War e<g ref="char:EOLhyphen"/>ver enters the Stage, and is ſo much of the World's Phyſick, as it is both a purge, and a Bloud-letting. Peace, Fulneſs, Pride, and War, are the four follies that, being let in to one another, make
+<pb n="2" facs="tcp:58158:8"/>the wheel that the Times turn on, as we ſee in Bees, when the Hive multiplies and fills, nature hath always taught it a way of eaſe by Swarms; ſo the World, and Nations, when they grow overpopulous, they diſcharge themſelves by Troups and Bands. 'Tis but the diſtemper of the Body po<g ref="char:EOLhyphen"/>litick, which, like the natural reſt and a full diet, hath bur<g ref="char:EOLhyphen"/>then'd with repletion; and that highthens humors either to Sickneſs, or Evacuation: When 'tis eas'd of theſe it ſub<g ref="char:EOLhyphen"/>ſides again to a quiet reſt and temper; ſo War is begotten out of Peace graduately, and ends in Peace immediately. Be<g ref="char:EOLhyphen"/>tween Peace and War are two
+<pb n="3" facs="tcp:58158:8"/>Stages, Luxury, Ambition; between War and Peace, none at all. The Cauſes of War may be reduced to five heads; Am<g ref="char:EOLhyphen"/>bition, Avarice, Revenge, Pro<g ref="char:EOLhyphen"/>vidence, and Defence. The firſt were the moſt uſual cauſes of War among the Heathen; yet what all the conquered call'd Pride and Covetouſneſs, both the <hi>Romans</hi> and <hi>Grecians</hi> were taught by their high bloud to call Honour, and in<g ref="char:EOLhyphen"/>creaſe of Empire. That which hath grown from the propa<g ref="char:EOLhyphen"/>gation of Religion, was never of ſuch force, as ſince the <hi>Ma<g ref="char:EOLhyphen"/>humetan</hi> Law, and Catholick Cauſe, hath ruffled among the Nations; yet queſtionleſs to lay the foundation of Religion in
+<pb n="4" facs="tcp:58158:9"/>bloud, is to condemn it before we teach it. The Sword may force Nature, and deſtroy the Body, but cannot make the Mind believe that lawfull which is begun in unlawful<g ref="char:EOLhyphen"/>neſs; yet without doubt in the enterprizes the Opinion has animated much: we ſee how it formerly fired the <hi>Turk,</hi> and is yet a ſtrong motive to <hi>Spa<g ref="char:EOLhyphen"/>niſh,</hi> and <hi>French</hi> attempts. For that of Revenge, I ſee not but it may be lawfull for a Prince, even by War to vindi<g ref="char:EOLhyphen"/>cate Himſelf, and People; and the reaſon is, becauſe in ſuch cauſes of injury the whole Na<g ref="char:EOLhyphen"/>tion is intereſſed, and many times the Recompence is more due to the Subjects than the
+<pb n="5" facs="tcp:58158:9"/>Sovereign. That of Provi<g ref="char:EOLhyphen"/>dence may well have a paſs, as when Princes make War to avoid War, or when they ſee a ſtorm inevitably falling 'tis good to meet it, and break the force, ſhould they ever ſit ſtill while the blow were given them, they might very well undoe themſelves by Patience; we ſee in the Body men often bleed to prevent an imminent Sickneſs. For that of Defence, both Religion and all the Rules of Nature plead for't: Sharp War and the very novelty of ſudden Violence uſe to diſmay any State or Country not in<g ref="char:EOLhyphen"/>ured to the like; but cuſtome of Danger hardeneth thoſe that are unwarlike.</p>
+            <p>
+               <pb n="6" facs="tcp:58158:10"/>
+               <hi>Nineveh</hi> had been the Pa<g ref="char:EOLhyphen"/>lace of many valiant Kings lately reigning therein; it had ſuffered and reſiſted all the fu<g ref="char:EOLhyphen"/>ry wherewith either domeſti<g ref="char:EOLhyphen"/>cal Tumults between the Sons of <hi>Senacharib,</hi> or foreign War of the <hi>Babilonians</hi> could afflict it; and therefore it is leſs won<g ref="char:EOLhyphen"/>derfull <hi>Phraortes</hi> did ſpeed ſo ill in his journey againſt it; he and the moſt part of his Army periſhed in that expe<g ref="char:EOLhyphen"/>dition. For the weapons of War, they differ much from thoſe in antient times, and I believe the Invention of Ordinances have mightily ſav'd the lives of men; they command at ſuch diſtance, and are ſo unreſiſtible, that
+<pb n="7" facs="tcp:58158:10"/>men come not to the ſhock of battel as in former a<g ref="char:EOLhyphen"/>ges: We may obſerve that the greateſt numbers have fallen by thoſe weapons that have brought the Enemies neareſt together; then the pitcht field was the tryall, and men were ſo ingaged, that they could not come off till bloud had deſided Victory. The ſame advan<g ref="char:EOLhyphen"/>tages are ſtill, and rather great<g ref="char:EOLhyphen"/>er now than of old; the Wind, the Sun, the better Ground, in former Wars: For all their Ar<g ref="char:EOLhyphen"/>mies the air was ever clear, but now their Peices miſt and thicken it, which beaten up<g ref="char:EOLhyphen"/>on by diſadvantages, may ſoon endanger an Army. Surely Wars are the ſame with Offen<g ref="char:EOLhyphen"/>ces
+<pb n="8" facs="tcp:58158:11"/>they muſt be, yet they are mightily in the fault that cauſe them; even Reaſon teaches to caſt the bloud of the ſlain up<g ref="char:EOLhyphen"/>on the unjuſt authors of it; that which gives the Mind ſe<g ref="char:EOLhyphen"/>curity is a juſt cauſe, and juſt deputation; let me have theſe, and of all other I ſhall think this one of the nobleſt and moſt manly ways of dy<g ref="char:EOLhyphen"/>ing.</p>
+            <div type="part">
+               <pb n="9" facs="tcp:58158:11"/>
+               <head>Preparation for War.</head>
+               <p>HE that will make Prepa<g ref="char:EOLhyphen"/>ration for War, ought principally to conſider ſix things.</p>
+               <p>Firſt, In calling a wiſe and judicious Council, according to that of <hi>Solomon,</hi> every purpoſe is eſtabliſhed by Coun<g ref="char:EOLhyphen"/>ſel, and with good advice make War. <hi>Cyneas</hi> got more Cities by his Wiſdom, than <hi>Pyrrhus</hi> by his Puiſſance. <hi>Caridemus,</hi> a baniſhed <hi>Grecian</hi> of <hi>Athens,</hi> told <hi>Darius,</hi> when he made a view of his Army about <hi>Baby<g ref="char:EOLhyphen"/>lon, (viz.)</hi> That the multitude
+<pb n="10" facs="tcp:58158:12"/>which he had aſſembled of di<g ref="char:EOLhyphen"/>vers Nations, richly attired, but poorly armed, would be found more terrible to the In<g ref="char:EOLhyphen"/>habitants of the Country, whom in paſſing by they would devour, than the <hi>Ma<g ref="char:EOLhyphen"/>eedonians</hi> whom they went to aſſail, who being old and obe<g ref="char:EOLhyphen"/>dient Soldiers, embattell'd in groſs Squadrons, which they call their <hi>Phallaux,</hi> well covered with Armour for defence, and furniſhed with Weapons for offence, of great advantage, would make ſo little account of his delicate <hi>Perſians,</hi> loving their eaſe and their palate, be<g ref="char:EOLhyphen"/>ing withall ill arm'd, and worſe diſciplin'd, as except it would pleaſe him to entertain (having
+<pb n="11" facs="tcp:58158:12"/>ſo great abundance of treaſure to doe it withall) a ſufficient number of the ſame <hi>Grecians,</hi> and ſo to encounter the <hi>Mace<g ref="char:EOLhyphen"/>donians</hi> with men of equal courage, he would repent him over late, as taught by the miſerable ſucceſs which fol<g ref="char:EOLhyphen"/>lowed; but <hi>Darius,</hi> who had been accuſtomed to nothing ſo much as his own Praiſes, and nothing ſo little as to hear Truth, commanded that this poor <hi>Grecian</hi> ſhould be preſently ſlain, who while he was a ſundering in the Tor<g ref="char:EOLhyphen"/>mentor's hands, uſed this ſpeech to the King, That <hi>Alexander,</hi> againſt whom he had given this good avice, ſhould aſſured<g ref="char:EOLhyphen"/>ly avenge his death, and lay
+<pb n="12" facs="tcp:58158:13"/>deſerved puniſhment upon <hi>Da<g ref="char:EOLhyphen"/>rius</hi> for deſpiſing his counſel. It is a ſaying of a wiſe man, The Princes ſafety is in a deſ<g ref="char:EOLhyphen"/>perate caſe, whoſe ear judges all that is profitable to be ſharp, and will entertain no<g ref="char:EOLhyphen"/>thing that is unpleaſant; for liberty in Counſel is the life and eſſence of Counſel.</p>
+               <p>The Second, Proviſion of Victuals, without which no one ought to enter upon any deſignment.</p>
+               <p>The Third, Proviſion of Money, for all ſuch things as might be neceſſary, or be<g ref="char:EOLhyphen"/>hoof-full for the action.</p>
+               <p>The Fourth, In a Megazine well furniſhed with all ſorts of Ammunition, which may at
+<pb n="13" facs="tcp:58158:13"/>leaſt be thought uſefull, or ad<g ref="char:EOLhyphen"/>vantageous in all deſigns or undertakings; for the want of which ſtore we have often ſeen, that great Armies have been for'cd to quit the field, leaving the Victory to men of ſmaller number, and of leſs cou<g ref="char:EOLhyphen"/>rage, having the advantage in being better furniſhed.</p>
+               <p>The Fifth. In an Army well arm'd, either in all, or for the moſt part conſiſting of old beating Soldiers; for upon raw and freſh Fellows it is not ſafe to repoſe one's hopes: And in truth that General can never ſecurely come to the tryall of Battel, nor ſafely en<g ref="char:EOLhyphen"/>camp, whoſe Army for the greateſt part conſiſteth not of
+<pb n="14" facs="tcp:58158:14"/>old experienc'd Soldiers; a rule ever verified by the moſt judicious Captains that ever were, <hi>Alexander, Hannibal, Scipio,</hi> and <hi>Caeſar,</hi> who never entred into any Enterpriſe, but did firſt of all provide themſelves of great numbers thus qualified.</p>
+               <p>The Sixth, In experience of his Enemies Forces, by which meaſuring thy own; and if thou feeſt the advantage on thy ſide, then bid them bat<g ref="char:EOLhyphen"/>tel; if it ſtands upon indiffe<g ref="char:EOLhyphen"/>rency, or equal terms, if thou canſt truſt on thy own skill and conduct, never refuſe it; but if thou find thy ſelf infe<g ref="char:EOLhyphen"/>rior, then either by Strategems make thy ſelf fuperior, or by
+<pb n="15" facs="tcp:58158:14"/>temporifing ſtay untill time ſhall either leſſen thy Enemies Forces, or make thy own more ſtronger: But in all ſuch war<g ref="char:EOLhyphen"/>like caſes, that Prince which is moſt abſolute in his ſelf ſeems to have the greateſt advan<g ref="char:EOLhyphen"/>tage. The Empire of <hi>Germa<g ref="char:EOLhyphen"/>ny</hi> had doubtleſs ſooner en<g ref="char:EOLhyphen"/>countred the <hi>Turks,</hi> and given a ſtop to his free entrance the firſt year of thee War into <hi>Hungary,</hi> had he not been ne<g ref="char:EOLhyphen"/>ceſſitated to expect the conſent of his ſeveral Princes, and the reſult of a Diet, when the <hi>Turks</hi> were ready to enter <hi>Germany;</hi> for when many heads or hands are required, all buſineſs moves ſlowly, and more time is ſpent in agreements of the Manner
+<pb n="16" facs="tcp:58158:15"/>of Action in arguments and debates, (which are moſt com<g ref="char:EOLhyphen"/>monly carried on by Faction,) than in the moſt difficult point of Execution.</p>
+            </div>
+            <div type="part">
+               <pb n="17" facs="tcp:58158:15"/>
+               <head>How Commanders ought to be qualified.</head>
+               <p>COmmanders in War ought to be built upon theſe three Vertues; they ſhould be Wiſe, Valiant, and Experien<g ref="char:EOLhyphen"/>ced: Wiſdom in a General many times ends the War without War; of all victories the <hi>Romans</hi> thought that beſt, which was leaſt ſtain'd with bloud; and they were content to let <hi>Camillus</hi> tryumph when he had not fought in theſe times: It is eſpecially requi<g ref="char:EOLhyphen"/>ſite, ſince Strategems and ad<g ref="char:EOLhyphen"/>vantages are more in uſe than
+<pb n="18" facs="tcp:58158:16"/>the open and daring valour: yet valiant he muſt be, elſe he grows contemptible, loſes his Command, and by his own fear infects his Troups with Gowardice. To the eternal honour of <hi>CaeſarCicero</hi> reports, that in all his Commands of the Field there was not found an <hi>Ito,</hi> but a <hi>Veni,</hi> as if he had ſcorn'd in all his on-ſets to be any thing but ſtill a Leader, always teaching by the ſtrong<g ref="char:EOLhyphen"/>eſt authority his own forward<g ref="char:EOLhyphen"/>neſs, his own examples. Al<g ref="char:EOLhyphen"/>though theſe be excellencies, they be all without experience lame; let him be never ſo learned, his books cannot li<g ref="char:EOLhyphen"/>mit his deſigns in ſeveral, and though he be perfect in a pa<g ref="char:EOLhyphen"/>per
+<pb n="19" facs="tcp:58158:16"/>plot, where his eye has all in a view, he will fail in a leagure, where he ſees but a limb at once. Beſides, Experience puts a Credit on his actions, and makes him far more prompt in undertakings; and indeed there is a great deal of reaſon why we ſhould reſ<g ref="char:EOLhyphen"/>pect him that with an untain<g ref="char:EOLhyphen"/>ted Valour has grown old in Arms. <hi>Scipio</hi> conquered the greateſt part of <hi>Spain,</hi> in the four and twentieth year of his age; and <hi>Polibius</hi> doth attri<g ref="char:EOLhyphen"/>bute to his honour, that the chiefeſt Vertue whereby he got the eminency of Excellen<g ref="char:EOLhyphen"/>cy, and whereby he maſtered the actions he undertook, how difficult ſoever, was his great
+<pb n="20" facs="tcp:58158:17"/>Induſtry, and large Experience in military Affairs; and <hi>Titus Livius</hi> aſcribeth unto him a particular dextery of Wiſdom, appropriated above common meaſure unto himſelf only; <hi>For,</hi> ſaith he, <hi>it could not be otherwiſe, unleſs by ſome ex<g ref="char:EOLhyphen"/>traordinary favour from above, that he over-weighed the great<g ref="char:EOLhyphen"/>eſt dangers and difficulties be<g ref="char:EOLhyphen"/>falling him, both at home and abroad.</hi>
+               </p>
+               <p>It is alſo very requiſite that all Commanders ſhould be well skill'd in the Art of Arith<g ref="char:EOLhyphen"/>metick; for without which Art it is very hard and difficult for the wiſeſt of Men to divide Armies into Regiments, and ſo into Campanies of equal
+<pb n="21" facs="tcp:58158:17"/>number; or to proportion the quantity of Proviſion, or A<g ref="char:EOLhyphen"/>munition, according to the number of Soldiers, either for days, weeks, or years; or to be exact in their payments; or for digging of Trenches, or raiſing of Bullworks, or any other Fortification, according to ſtrength and time; or to proportion ground, either to encamp on, or battalia an Ar<g ref="char:EOLhyphen"/>my to fight, or defend an E<g ref="char:EOLhyphen"/>nemy at the beſt advantage; or degreeing of Guns according to place and diſtance. <hi>Alex<g ref="char:EOLhyphen"/>ander Magnus</hi> without all doubt was well skill'd in all ſuch like Arts; for if you read his life, you ſhall ſee that famous Phi<g ref="char:EOLhyphen"/>loſopher, <hi>Ariſtotle,</hi> his School-Maſter.
+<pb n="22" facs="tcp:58158:18"/>Beſides all theſe Arts, Swimming is very neceſſary to be learnt, both by Com<g ref="char:EOLhyphen"/>manders and Soldiers; for there is hardly an Iſland or Country ſo barren of water, but there are Rivers of that breadth and depth which are not paſſable without ſwim<g ref="char:EOLhyphen"/>ing; for if an Army be forc'd on a River, either by retreat, flight, or in purſuance of an Enemy; the former like to pe<g ref="char:EOLhyphen"/>riſh, the latter looſe their en<g ref="char:EOLhyphen"/>terpriſe. It is ſtoried of the ſame <hi>Alexander,</hi> though being ſo complete a Captain and Soldier, and to the admiration of all Commanders that fol<g ref="char:EOLhyphen"/>lowed him, that he being ſo expert in War, yet he never
+<pb n="23" facs="tcp:58158:18"/>leart to ſwim, being a thing ſo neceſſary as he himſelf found it in all actions of War; for his Soldiers not daring to approach unto <hi>Niſa,</hi> a City environ'd with a deep River, he ſtanding by, and looking upon it, wept full bitterly that he had not learnt that Art, terming himſelf to be a man of no worth, and baſely brought up.</p>
+               <p>It is poſſible, though very rare, to find a Commander qualified with all theſe War<g ref="char:EOLhyphen"/>like Vertues: With all the Au<g ref="char:EOLhyphen"/>thors I have conſulted, I find none come ſo near as <hi>Epami<g ref="char:EOLhyphen"/>nondas,</hi> which I ſhall leave to the world (as he is recom<g ref="char:EOLhyphen"/>mended) for an example. <hi>Epa<g ref="char:EOLhyphen"/>minondas</hi>
+                  <pb n="24" facs="tcp:58158:19"/>at the great Battel of <hi>Mantua</hi> was mortally woun<g ref="char:EOLhyphen"/>ded with a Dart; the wood breaking of, left the Iron in his breaſt, and being brought into his Tent, was told by the Phyſician, that when the head of the Dart ſhould be drawn out of his body, he muſt needs dye; hearing this he called for his Squire, which brought him his Sheild, which to have loſt, was held a great diſhonour; he bad them tell him which part had the victory, anſwer was made, the <hi>Baeotians</hi> had won the Field, <hi>Then,</hi> ſaid he, <hi>'tis fair time for me to dye;</hi> and withall ſent for <hi>Joledes</hi> and <hi>Diaphantes,</hi> two principal
+<pb n="25" facs="tcp:58158:19"/>Men of War, that were both ſlain, which being told him, he adviſed the <hi>Thebeans</hi> to make Peace, whilſt with ad<g ref="char:EOLhyphen"/>vantage they might; for that they had no one left that was able to diſcharge the Office of a General. Herewithall he willed that the head of the weapon ſhould be drawn out of his body, comforting his Friends that lamented his death, and want of Iſſue, by telling them that the victo<g ref="char:EOLhyphen"/>ries of <hi>Luctra</hi> and <hi>Mantinna</hi> were two fair Daughters, in whom his Memory ſhould live.</p>
+               <p>So dyed <hi>Epaminondas,</hi> the worthieſt Man that ever was bred in that Nation of <hi>Greece,</hi>
+                  <pb n="26" facs="tcp:58158:20"/>and hardly to be match'd in any Nation or Country; for he equall'd all, even in the ſeveral Vertues, and in each of them was ſingular: His Juſtice and Sincerity, his Temperance, Wiſdom, and high Magnaminity were no way inferior to his Military Ver<g ref="char:EOLhyphen"/>tue; in every part whereof he ſo exceeded, that he might not improperly be call'd a wary, a Valiant, a Politick, a Bounti<g ref="char:EOLhyphen"/>full, or an Induſtrious, and a Provident Captain: All theſe Titles and many other, being due unto him, with which his notable Diſcipline and good Conduct made a perfect com<g ref="char:EOLhyphen"/>pletion of an Heroick Gene<g ref="char:EOLhyphen"/>ral. Neither was his private
+<pb n="27" facs="tcp:58158:20"/>Converſation unanſwerable to theſe high Parts, which gave him praiſes abroad; for he was Grave, and yet very Af<g ref="char:EOLhyphen"/>fable and Courteous; reſolute in publick buſineſs; but in his own particular eaſie, and of much Mildneſs; a lover of People, bearing with Men's infirmities; Witty, and plea<g ref="char:EOLhyphen"/>ſant in Speech; far from in<g ref="char:EOLhyphen"/>ſolence; Maſter of his own Af<g ref="char:EOLhyphen"/>fections, and furniſhed with all Qualities that might win and keep the love of his Soldiers. To theſe Graces were added a great ability of Body, much E<g ref="char:EOLhyphen"/>loquence, and very deep Know<g ref="char:EOLhyphen"/>ledg in all parts of Philoſophy and Learning; wherewith his Mind being enlighten<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <pb n="28" facs="tcp:58158:21"/>reſted not in the ſweet con<g ref="char:EOLhyphen"/>templation, but brake forth into ſuch effects, as gave un<g ref="char:EOLhyphen"/>to <hi>Thebes,</hi> which had ever been an underling, a dread<g ref="char:EOLhyphen"/>full reputation among all Peo<g ref="char:EOLhyphen"/>ple adjoyning, and the high<g ref="char:EOLhyphen"/>eſt command in <hi>Greece.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="29" facs="tcp:58158:21"/>
+               <head>How to gain and keep the Love of Sol<g ref="char:EOLhyphen"/>diers.</head>
+               <p>NOthing procureth the love of Soldiers like a Commander, whoſe noble Heart is the Seat of Humility, attended with the hand of Bounty; where the heart is ſtuft with Pride, nothing more be<g ref="char:EOLhyphen"/>gets Hate: The proud Captain walks among Daggers poin<g ref="char:EOLhyphen"/>ted againſt him, whereas the humble and affable have the people for their guard in time of danger: The Captain that is Noble to his Soldiers, al<g ref="char:EOLhyphen"/>though
+<pb n="30" facs="tcp:58158:22"/>he ſeems low, yet car<g ref="char:EOLhyphen"/>ries ſuch a ſway that com<g ref="char:EOLhyphen"/>mands their very Souls: But let him take heed he expreſſeth it not in unworthy actions, for then leaving Vertue, it falls into diſdained baſeneſs, which is the undubitable badge of one that will betray Society; ſo far as a Commander, both in words and deeds, may be free from Flattery and unmanly Cowardice, he may be hum<g ref="char:EOLhyphen"/>ble with commendation.</p>
+               <p>The great affection which <hi>Caeſar</hi>'s Soldiers bore to him proceeded chiefly from theſe two Cauſes: The firſt from his Humility; for we read in his Orations, and ſet Speeches, he would not call them by the
+<pb n="31" facs="tcp:58158:22"/>name of Soldiers, but Com<g ref="char:EOLhyphen"/>panions, and Fellows in Arms. The ſecond from his Liberality; for one while he would give his Soldiers Priſoners, ano<g ref="char:EOLhyphen"/>ther while Corn; and for all ſuch as were diſabled, or by Age forc'd to leave the War, he took the care that they ſhould have a competent main<g ref="char:EOLhyphen"/>tainance during their lives.</p>
+               <p>He alſo valued the Reputation of his Soldiers at the higheſt rate imaginable, as it plainly appeareth; for after the Over<g ref="char:EOLhyphen"/>throw given, and his Soldi<g ref="char:EOLhyphen"/>ers defeated by <hi>Sabynus,</hi> he would never trim his Beard, nor yet as much as once ſmile, until ſuch time as making their Loſs his particular Prejudice,
+<pb n="32" facs="tcp:58158:23"/>he had revenged that diſgrace.</p>
+               <p>He ſeverely puniſhed injuries, and ſuch as were treacherous unto him; he was a moſt ſtrickt and ſevere obſerver of Martial Diſcipline, but at all o<g ref="char:EOLhyphen"/>ther faults he would wink, as if he ſaw them not: So accom<g ref="char:EOLhyphen"/>pliſh'd a Captain and Soldier was he, that by his Humility, Liberality, and good Conduct, he had ſo much won the hearts of his Soldiers, that it is even ſaid, <hi>Caeſar</hi>'s Eye made his Sol<g ref="char:EOLhyphen"/>diers prodigal of their Bloud. Plt.</p>
+               <p>
+                  <note place="margin">To keep the Love of Sol<g ref="char:EOLhyphen"/>diers.</note> But the chief<g ref="char:EOLhyphen"/>eſt thing in a Ge<g ref="char:EOLhyphen"/>neral is when he hath brought his Soldiers under obedience, and
+<pb n="33" facs="tcp:58158:23"/>that he doth intend to keep their love, he muſt as well make them partakers of his Victo<g ref="char:EOLhyphen"/>ries, as to oblige them by Gifts; for he that doth not as well impart of the Honour which he gaineth in the Wars, as he doth of the Spoils, ſhall ne<g ref="char:EOLhyphen"/>ver be long followed by thoſe of the better ſort; for men that are well born, or well bred, and have more of Wealth than Reputation, do as often ſatisfie themſelves with the purchaſe of Glory, as the weak in Fortune, and ſtrong of Cou<g ref="char:EOLhyphen"/>rage, do with gain of Gold and Silver.</p>
+               <p>Laſtly, I could adviſe all Commanders to doe their Sol<g ref="char:EOLhyphen"/>diers that right, agreeable to
+<pb n="34" facs="tcp:58158:24"/>that of <hi>Hannibal</hi> towards his Enemies, <hi>Hoſtem qui feriet, erit mihi Carthaginenſis,</hi> Let him be of what condition he will in all offices or actions, he that deſerves beſt ſhall have beſt.</p>
+            </div>
+            <div type="part">
+               <pb n="35" facs="tcp:58158:24"/>
+               <head>Of Wiſdom and Poli<g ref="char:EOLhyphen"/>cy in War, and Ex<g ref="char:EOLhyphen"/>amples thereof.</head>
+               <p>A Wiſe Man ſcaleth the City of the mighty. Wiſdom is profitable for all things in Military affairs. Prudence is better than Puiſ<g ref="char:EOLhyphen"/>ſance. How did <hi>Archimedes</hi> by his rare Engines preſerve <hi>Syracuſae</hi> againſt the <hi>Romans;</hi> and how many impregnable Cities have been ſurprized by Warlike Strategems, As,</p>
+               <p>
+                  <hi>Babylon</hi> by <hi>Cyrus,</hi> and after<g ref="char:EOLhyphen"/>wards by <hi>Zaphirus,</hi> under <hi>Da<g ref="char:EOLhyphen"/>rius;
+<pb n="36" facs="tcp:58158:25"/>Jeruſalem</hi> by <hi>Pompey,</hi> ta<g ref="char:EOLhyphen"/>king the opportunity of the Sabbath day, wherein he knew the ſuperſtitious <hi>Jews</hi> would not ſtir to defend them<g ref="char:EOLhyphen"/>ſelves.</p>
+               <p>A prudent Man foreſees the evil, <hi>&amp;c.</hi> Premiſſion is the beſt means for Prevention. A wiſe Man's Eyes are in his Head, and his Heart at his right Hand.</p>
+               <p>The <hi>Chinois</hi> ſay, That all others in the World, ſee but with one eye, and they only with two. The <hi>Italians</hi> ſay, that they look before they leap, forecaſt all evil before it befalls them; but theſe are praiſes belonging to thoſe that have Heavenly Wiſdom, that
+<pb n="37" facs="tcp:58158:25"/>by Signs diſcern a Tempeſt in the Clouds, and ſeek ſeaſona<g ref="char:EOLhyphen"/>ble ſhelter under the hollow of God's Hand, under the ſha<g ref="char:EOLhyphen"/>dow of his Wings; as did <hi>Noah, Joſeph, Jonadab, Joſiah,</hi> the Chriſtians at <hi>Pella, &amp;c.</hi>
+               </p>
+               <p>
+                  <hi>Homer</hi> maketh the Pruden<g ref="char:EOLhyphen"/>teſt and Valiant, ever beſt Arm'd when they come to Battel. And the Law-maker amongſt the <hi>Grecians</hi> do ever puniſh him that caſteth away his Target, but never him that caſteth away his Sword or Lance; for every man ſhould firſt think of defending him<g ref="char:EOLhyphen"/>ſelf, before he ſeek to hurt his Enemy.</p>
+               <p>What a prize did <hi>Agamem<g ref="char:EOLhyphen"/>non</hi> ſet upon his <hi>Neſtor</hi> for his
+<pb n="38" facs="tcp:58158:26"/>Wiſdom, and <hi>Darius</hi> upon <hi>Zophirus. Scipio</hi> did nothing without his <hi>Polibius,</hi> and a<g ref="char:EOLhyphen"/>ſcribed moſt of his Victories to his Wiſdom.</p>
+               <p>It was ſaid of <hi>Octavius Au<g ref="char:EOLhyphen"/>guſtus,</hi> that he never made War upon any People without juſt and neceſſary Cauſes. His Saying was, That neither Bat<g ref="char:EOLhyphen"/>tel, nor War, was to be un<g ref="char:EOLhyphen"/>dertaken, unleſs there might be evidently ſeen more hope of Gain, than fear of Damage. He likened ſuch as ſought after ſmall Commodities with great Danger, unto thoſe that angle with a golden Hook, which if it be broken off, no draught of Fiſh whatſoever is able to make amend's for the
+<pb n="39" facs="tcp:58158:26"/>loſs. He deemed nothing leſs beſeeming a perfect and ac<g ref="char:EOLhyphen"/>compliſht Captain than Te<g ref="char:EOLhyphen"/>merity, or Raſhneſs, uſing this Speech, <hi>That is done ſoon enough, that is done well e<g ref="char:EOLhyphen"/>nough.</hi>
+               </p>
+               <p>Policy governs the World,
+<note place="margin">Policy.</note> Nature Policy, but Religi<g ref="char:EOLhyphen"/>on all; and as we ſeldom ſee thoſe Kingdoms govern'd by Viceroys flouriſh like thoſe where the Prince is preſent in Perſon, ſo we never find Policy, or Nature, to keep a Man in that quiet which Re<g ref="char:EOLhyphen"/>ligion can: The two firſt I may uſe as Counſelours, hear what they ſay, and weigh it; but the laſt muſt be my Sovereign.
+<pb n="40" facs="tcp:58158:27"/>
+                  <hi>Lyſander,</hi> King of <hi>Sparta,</hi>
+                  <note place="margin">Examples of Policy.</note> a gallant General, and very Politick, uſed to ſay, <hi>That where the Lyon's skin would not ſuffice, it was meet to put the Fox's skin upon it.</hi>
+               </p>
+               <p>
+                  <hi>Philip</hi> and <hi>Alexander,</hi> Kings of <hi>Macedon,</hi> uſed to buy Vi<g ref="char:EOLhyphen"/>ctory with Money, not Mo<g ref="char:EOLhyphen"/>ney with Victory, by which Policy they did many nota<g ref="char:EOLhyphen"/>ble things, and conquered the World; whence came that common ſaying, <hi>That not</hi> Phi<g ref="char:EOLhyphen"/>lip, <hi>but his Gold and Silver won him the Cities of</hi> Greece. For certainly Policy runs ſmootheſt when it turns upon a golden Hinge; without the ſupply of means, 'tis but like
+<pb n="41" facs="tcp:58158:27"/>a Clock without a Weight to ſet it going, curious Workman<g ref="char:EOLhyphen"/>ſhip, but it wants a Mover.</p>
+               <p>
+                  <hi>Alexander</hi> perceiving <hi>Dari<g ref="char:EOLhyphen"/>us</hi> with his huge Army at hand, entrenches himſelf upon a ground of advantage, which the <hi>Perſian</hi> had abandoned. And whereas <hi>Darius,</hi> for fear of ſurprize, had ſtood with his Army in Armour all the day, and forborn ſleep all night; <hi>Alexander</hi> gave his Men reſt, and ſtore of food, for Reaſon had taught him this Rule in the Wars, <hi>Soldiers do the bet<g ref="char:EOLhyphen"/>ter ſtand to it in fight, if they have their bellies full of meat and drink; for Hunger within fights more eagerly then Steel without.</hi> The Conſtable of
+<pb n="42" facs="tcp:58158:28"/>
+                  <hi>France</hi> made fruſtrate the mighty preparation of <hi>Charles</hi> the Fifth, when he invaded <hi>Provence,</hi> by waſting the Country, and forbearing to fight. So did the Duke of <hi>Al<g ref="char:EOLhyphen"/>va</hi> weary the <hi>French</hi> in <hi>Naples,</hi> and diſſolve the potent Army of the Prince of <hi>Orange</hi> in the Low-Countries.</p>
+               <p>It was a Policy of the <hi>Ro<g ref="char:EOLhyphen"/>mans</hi> to make their Conqueſt ſure; they would always eaſe the conquer'd of their bur<g ref="char:EOLhyphen"/>thens, giving them more li<g ref="char:EOLhyphen"/>berty than they had before; that made the <hi>Gaſcoigres</hi> bear ſuch a faithfull affection to the Kings of <hi>England,</hi> for that they govern'd more mildly than the <hi>French.</hi> This enlarged the
+<pb n="43" facs="tcp:58158:28"/>
+                  <hi>Venetian</hi> Juriſdiction in <hi>Lom<g ref="char:EOLhyphen"/>bardy;</hi> for the Towns that they won, they won out of the hands of Tyrannous Op<g ref="char:EOLhyphen"/>preſſors. And this did cauſe the <hi>Macedonians,</hi> with other Nations that had been Sub<g ref="char:EOLhyphen"/>ject unto the proſperity of <hi>Alexander</hi>'s followers, to ſerve the <hi>Romans</hi> patiently, if not willingly; for that by them they were eas'd of many bur<g ref="char:EOLhyphen"/>thens, which had been impoſed upon them by their own Kings. When <hi>Scipio</hi> ſaw his Horſe to be beaten at the battel of <hi>Fa<g ref="char:EOLhyphen"/>cinium,</hi> by the ſtrength of <hi>Hannibal,</hi> and the reſt of his Army thereby greatly diſcou<g ref="char:EOLhyphen"/>raged, he thought it a point of Wiſdom, having loſt ſo many
+<pb n="44" facs="tcp:58158:29"/>of his Fleet, upon the firſt puff of Wind, to take part with the reſt before the extremeſt of the Tempeſt overtook him; for he ſaw by the louring morning what manner of day it was like to prove: There<g ref="char:EOLhyphen"/>fore his Battel of Foot being yet unbroken, he in a man<g ref="char:EOLhyphen"/>ner ſtole the Retreat, and re<g ref="char:EOLhyphen"/>covered the Bridge over <hi>Tici<g ref="char:EOLhyphen"/>nus,</hi> which he had formerly built; but notwithſtanding all the haſte he made, he left ſix hundred of his Rear behind him, who were the laſt that ſhould have paſſed, and ſtaid to break the Bridge. Herein he followed the rule of a Po<g ref="char:EOLhyphen"/>litick Man of War, which muſt be underſtood in this ſort. If
+<pb n="45" facs="tcp:58158:29"/>a General of an Army by ſome unproſperous beginnings doubt the ſucceſs, or find his Army fearfull, or wavering, it is more profitable to ſteal a ſafe Retreat, than to abide the uncertain Event of Bat<g ref="char:EOLhyphen"/>tel.</p>
+               <p>
+                  <hi>Alexander Severus</hi> gave ſuch Lands as he won out of the hands of his Enemies to his Lords, Marches, and Soldiers, that they ſhould be theirs and their Heirs for ever, ſo they would be Soldiers; neither ſhould they at any time come to the hands of private Men, ſaying, <hi>They would the more carefully ſerve, if they fought for their own Lands.</hi>
+               </p>
+               <p>
+                  <pb n="46" facs="tcp:58158:30"/>
+                  <hi>Campidus Lycurgus</hi> comman<g ref="char:EOLhyphen"/>ded his <hi>Spartans</hi> that they ſhould never make War often with one Enemy, leſt in pro<g ref="char:EOLhyphen"/>ceſs of time they ſhould grow more expert and valiant than themſelves.</p>
+               <p>It was look'd upon as Po<g ref="char:EOLhyphen"/>licy in <hi>Scipio,</hi> becauſe he would not hazard his own Perſon, unleſs moved by opportunity, or forced by neceſſity; where<g ref="char:EOLhyphen"/>upon being in ſome ſort tax<g ref="char:EOLhyphen"/>ed for not adventuring him<g ref="char:EOLhyphen"/>ſelf, he made anſwer, <hi>That he was not born a Soldier, but a Commander;</hi> inferring thereby that Forwardneſs is eſpecially to be expected in private Sol<g ref="char:EOLhyphen"/>diers, good Conduct and Tem<g ref="char:EOLhyphen"/>porizing to be the moſt requi<g ref="char:EOLhyphen"/>ſite
+<pb n="47" facs="tcp:58158:30"/>parts in a General. It was likewiſe a ſaying of his, <hi>That the paſſage whereby an Enemy was to take his flight is not to be ſtopped; for as their flight will adminiſter occaſion of ſlaugh<g ref="char:EOLhyphen"/>ter and advantage, ſo it is moſt dangerous to fight with People ſtanding upon terms of deſpair and neceſſity.</hi>
+               </p>
+               <p>But the trueſt Policy in War, and for the moſt part with good ſucceſs, is that which is ordained againſt the richeſt Nations, for as the Needy are always adventurous, ſo Plenty is wont to ſhun peril; and Men that have wherewith well to live, do rather ſtudy how to live well, I mean wealthy, than care to dye (as they call it)
+<pb n="48" facs="tcp:58158:31"/>Honourably; no man makes haſte to that Market where is nothing to be bought but blows.</p>
+            </div>
+            <div type="part">
+               <pb n="49" facs="tcp:58158:31"/>
+               <head>Of Courage and Valour in War, with Ex<g ref="char:EOLhyphen"/>amples thereof.</head>
+               <p>VVHilſt a People walk in obedience to God, he hath promiſed that they ſhall chaſe their Ene<g ref="char:EOLhyphen"/>mies, who ſhall fall before them on the Sword; and that five of them ſhall chaſe one hundred, and one hundred ſhall put ten thouſand to flight; whence it appears, that the Spirit of Courage and Valour is from the Lord, who by weak and ſmall means doth many
+<pb n="50" facs="tcp:58158:32"/>times effect great and wonder<g ref="char:EOLhyphen"/>full things, that the Glory of all may be his.</p>
+               <p>What wonderfull Valour did <hi>David</hi> ſhow in killing the Lion, and the Bear, and in the duel with that huge <hi>Poly<g ref="char:EOLhyphen"/>pheme</hi> of the <hi>Philiſtians,</hi> and in many other Martial Acts againſt them; ſo that it ſeems that action is beſt done, which being good is done with the Vigour of the Spirits; What makes Zeal ſo commendable, but the Fervency that it car<g ref="char:EOLhyphen"/>rieth with it? Other Examples. In the Battel of <hi>Cynaegyrus,</hi> an <hi>Athenian,</hi> who ſhewed ſuch incomparable Valour, that pur<g ref="char:EOLhyphen"/>ſuing the <hi>Perſians</hi> to their Ships, when ſome of them
+<pb n="51" facs="tcp:58158:32"/>were putting off from the ſhoar, he caught hold of one of the Ships with his right Hand, holding it till his Hand was cut off, then he laid hold on it with his left Hand till that alſo was cut off, and then he caught hold of it with his Teeth. <hi>Juſtin.</hi>
+               </p>
+               <p>When <hi>Alexander</hi> had put <hi>Calſhenes</hi> to death, he ſuſpect<g ref="char:EOLhyphen"/>ed <hi>Lyſimaches,</hi> another of his Captains, becauſe he had been a familiar to <hi>Calſhenes,</hi> and thereupon cauſed him to be caſt naked to a moſt fierce Lion; but when the Lion came roaring upon him, <hi>Ly<g ref="char:EOLhyphen"/>ſimaches</hi> wraped his ſhirt about his arm, and thruſting his arm into the Lion's mouth,
+<pb n="52" facs="tcp:58158:33"/>and taking faſt hold of his Tongue, he ſlew the Lion; of which <hi>Alexander</hi> being infor<g ref="char:EOLhyphen"/>med, having his Valour in ad<g ref="char:EOLhyphen"/>miration, he not only forgave him, but eſteemed him more highly than before. Valour was ſo much eſteemed among the <hi>Lacedemonians,</hi> that in pub<g ref="char:EOLhyphen"/>lick Feaſts they had always three dances:</p>
+               <lg>
+                  <head>The 1ſt. of old Men, who Sung,</head>
+                  <l>
+                     <hi>We have been young and ſtrong,</hi>
+                  </l>
+                  <l>
+                     <hi>And valiant heretofore,</hi>
+                  </l>
+                  <l>
+                     <hi>Till broken Age did hold us back,</hi>
+                  </l>
+                  <l>
+                     <hi>And bid us doe no more.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <pb n="53" facs="tcp:58158:33"/>
+                  <head>The 2d. of young Men, who Sung,</head>
+                  <l>
+                     <hi>We yet are young, bold, ſtrong,</hi>
+                  </l>
+                  <l>
+                     <hi>And ready to maintain</hi>
+                  </l>
+                  <l>
+                     <hi>That quarrel ſtill againſt all Men</hi>
+                  </l>
+                  <l>
+                     <hi>That do on Earth remain.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>The 3d. of Children, who Sung,</head>
+                  <l>
+                     <hi>And we do hope as well</hi>
+                  </l>
+                  <l>
+                     <hi>To paſs you all at laſt,</hi>
+                  </l>
+                  <l>
+                     <hi>And that the World ſhall wit<g ref="char:EOLhyphen"/>neſs be,</hi>
+                  </l>
+                  <l>
+                     <hi>E'er many years be paſt.</hi>
+                  </l>
+               </lg>
+               <p>In their War they aſſaulted their Enemies very fiercely, and never gave over till the flight of their Enemies had aſſured them of Victory, and
+<pb n="54" facs="tcp:58158:34"/>then they quickly and quietly return'd into their own Camp, judging it unworthy of their Manhood, and an ignoble ac<g ref="char:EOLhyphen"/>tion, to kill and hew in peices Men once ſcattered and out of order; this much further'd their Victories, their Enemies being upon ſlight, ſecure from farther danger.</p>
+               <p>
+                  <hi>Julius Caeſar</hi> was of a moſt Magnanimous Reſolution, in<g ref="char:EOLhyphen"/>ſomuch as being forewarn'd of a Conſpiracy that was made againſt him in the Senate, he anſwered, <hi>That he had rather dye, than admit of fear.</hi>
+               </p>
+               <p>
+                  <hi>Areſtomenes</hi> King of the <hi>Meſſenians,</hi> was a very Gallant and Valiant Man, who in a Battel againſt the <hi>Corinthians,</hi>
+                  <pb n="55" facs="tcp:58158:34"/>ſlew one hundred Men with his own hand; the like he did in divers other Battels; where<g ref="char:EOLhyphen"/>upon he uſed to offer <hi>Jupiter</hi> a Sacrifice, call'd <hi>Hecatomphona,</hi> or <hi>conticideum Pauſen.</hi> After the Battelat <hi>Chaeronea,</hi> wherein <hi>Phi<g ref="char:EOLhyphen"/>lip</hi> King of <hi>Macedon</hi> overcame the <hi>Athenians,</hi> and after the Vi<g ref="char:EOLhyphen"/>ctory looking upon the dead bodies of his Adverſaries, he much commended them for their Valour; for that all their wounds were in their fore<g ref="char:EOLhyphen"/>parts, and for that they dyed in thoſe Stations which were aſſigned by their Captains.</p>
+               <p>The two <hi>Scipios,</hi> Brethren, were ſamous for the Wars in <hi>Spain,</hi> and againſt the <hi>Carthagi<g ref="char:EOLhyphen"/>nians,</hi> ſo that they were called
+<pb n="56" facs="tcp:58158:35"/>
+                  <hi>duo fulmina belli,</hi> the two thun<g ref="char:EOLhyphen"/>der bolts of War.</p>
+               <p>
+                  <hi>Claudius Marcellus</hi> fought one and fifty Battels, and was for his Valour called, <hi>Gladius Romani Populi,</hi> the Sword of the <hi>Romans;</hi> as <hi>Fabius</hi> was called <hi>Clypeus,</hi> their Buckler, for his Policy.</p>
+               <p>
+                  <hi>George Caſtriot, alias Scan<g ref="char:EOLhyphen"/>derbeg,</hi> Prince of <hi>Epirus,</hi> was inſpired with ſuch a Spirit of Valour by God, in defending his Country againſt the Barba<g ref="char:EOLhyphen"/>rous <hi>Turks,</hi> that in fighting againſt them, for very Eger<g ref="char:EOLhyphen"/>neſs of Spirit his Bloud would uſually burſt out of his Lips, and with ſuch Violence he ſtruck, that many of them he clove in ſunder from the
+<pb n="57" facs="tcp:58158:35"/>head to the Middle, and uſu<g ref="char:EOLhyphen"/>ally cut off an armed Arm at a blow; and with his own Hand he ſlew above two thou<g ref="char:EOLhyphen"/>ſand of them at ſeveral times.</p>
+               <p>News being brought to the <hi>Grecians</hi> of the huge Army that <hi>Xerxes</hi> had brought o<g ref="char:EOLhyphen"/>ver into <hi>Greece,</hi> whole Ar<g ref="char:EOLhyphen"/>chers were ſo many (as it was reported) that the flight of the <hi>Perſian</hi> Arrows would be ſo thick, as they would dar<g ref="char:EOLhyphen"/>ken the light of the Sun; <hi>Di<g ref="char:EOLhyphen"/>oneces,</hi> a <hi>Spartan,</hi> anſwered, <hi>Its good news, for then we ſhall fight in the ſhade.</hi>
+               </p>
+               <p>
+                  <hi>Julius Caeſar</hi> was a very Va<g ref="char:EOLhyphen"/>liant Man, and ſucceſsfull in all his Wars; ſo that in his Life time he took a Million of
+<pb n="58" facs="tcp:58158:36"/>Men Priſoners, and ſlew as many.</p>
+               <p>But why ſhould I range the world for Examples of Valour, whilſt our own Nation can give a better account than a<g ref="char:EOLhyphen"/>ny <hi>Romiſh</hi> Author; for if we read what a <hi>French</hi> Writer ſaith of the inequality that was between the <hi>French</hi> and <hi>Engliſh,</hi> when King <hi>John</hi> was ready to give the onſet upon the Black Prince, at the Battel of <hi>Poictiers: John</hi> had all the advantages over <hi>Edward,</hi> both of Number, Force, Show, Country, and Conceipt, the which is commonly a conſi<g ref="char:EOLhyphen"/>deration of no ſmall Impor<g ref="char:EOLhyphen"/>tance in Warlike Aſſairs; and withall, the cheif of all, his
+<pb n="59" facs="tcp:58158:36"/>Horſemen eſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eemed them the beſt in <hi>Europe,</hi> with the great<g ref="char:EOLhyphen"/>eſt and wiſeſt Captains of his whole Realm, and what could he wiſh more. I think it would trouble a <hi>Roman</hi> Antiquary to find the like Examples in their Hiſtories, the Example, I ſay, of a King brought Priſoner to <hi>Rome</hi> by an Army of eight Thouſand, which he had ſur<g ref="char:EOLhyphen"/>rounded with forty Thouſand better appointed, and no leſs expert Warriours; all that have read of <hi>Creſſe,</hi> and <hi>Agin<g ref="char:EOLhyphen"/>court,</hi> will bear me witneſs that I do not alledg the Bat<g ref="char:EOLhyphen"/>tel of <hi>Poictiers</hi> for lack of o<g ref="char:EOLhyphen"/>thers, as good Examples of <hi>Engliſh</hi> Valour; the Proof whereof hath left many hun<g ref="char:EOLhyphen"/>dred
+<pb n="60" facs="tcp:58158:37"/>better Marks in all quarters of <hi>France,</hi> than ever did the Valour of the <hi>Romans.</hi> If any man ſhall ask, How then came it to paſs, that they won ſo many great Battels, having no advantage to help them? I may with beſt Commendation of Modeſty, reſer him to the <hi>French</hi> Hiſto<g ref="char:EOLhyphen"/>rian, who relating the Victo<g ref="char:EOLhyphen"/>ry of our men at <hi>Crevant,</hi> where they paſſed a Bridge in face of the Enemy, uſeth theſe Words: <hi>The</hi> Engliſh <hi>comes with a Conquering bravery, as he was accuſtomed, to gain e<g ref="char:EOLhyphen"/>very where without any ſtay; he forced our Guards placed up<g ref="char:EOLhyphen"/>on the Bridge to keep the paſ<g ref="char:EOLhyphen"/>ſages:</hi> Or I may cite another Place of the ſame Authour,
+<pb n="61" facs="tcp:58158:37"/>where he tells how the <hi>Bri<g ref="char:EOLhyphen"/>tains,</hi> being invaded by <hi>Charles</hi> the Eight, King of <hi>France,</hi> thought it good Policy to apparel a Thouſand one Hun<g ref="char:EOLhyphen"/>dred of their own men in <hi>Engliſh</hi> Caſſocks, hoping that the very ſight of our <hi>Engliſh</hi> red Creſt would be enough to terrifie the <hi>French.</hi> But I will not ſtand to borrow of <hi>French</hi> Hiſtorians, all which, excepting <hi>Deſerres,</hi> and <hi>Paulus Aeucylius,</hi> were reported won<g ref="char:EOLhyphen"/>ders of our Nation; and like<g ref="char:EOLhyphen"/>wiſe our own Hiſtories, who tell us that the Military Ver<g ref="char:EOLhyphen"/>tue of the <hi>Engliſh,</hi> prevailing againſt all manner of difficul<g ref="char:EOLhyphen"/>ties, ought to be preferred be<g ref="char:EOLhyphen"/>fore that of the <hi>Romans,</hi> which
+<pb n="62" facs="tcp:58158:38"/>was aſſiſted with all advan<g ref="char:EOLhyphen"/>tages that could be deſired: If it ſhould be demanded, Why then did not our Kings finiſh the Conqueſt, as <hi>Caeſar</hi> had done? my Anſwer may be, (I hope without offence,) That our Kings were like to the race of the <hi>Aeacide,</hi> of whom the old Poet <hi>Ennius</hi> gave this note, <hi>They were more War<g ref="char:EOLhyphen"/>like than Politick.</hi> Who ſo notes their proceedings, may find that none of them went to work like a Conquerour, ſave only King <hi>Henry</hi> the Fifth, the courſe of whoſe Victories it pleaſed God to interrupt by his Death. But the queſtion is more eaſily anſwered: If a<g ref="char:EOLhyphen"/>nother be firſt made, why did
+<pb n="63" facs="tcp:58158:38"/>not the <hi>Romans</hi> attempt the conqueſt of <hi>Gall</hi> before the time of <hi>Caeſar?</hi> At all theſe times they had good leaſure and fit opportunity, when, under the Conduct of <hi>Marius,</hi> they had newly vanquiſhed the <hi>Cymbry,</hi> and <hi>Tutones,</hi> by whom the Country of the <hi>Galls</hi> had been pitiouſly wa<g ref="char:EOLhyphen"/>ſted. Surely the Words of <hi>Tully</hi> were true, that with other Na<g ref="char:EOLhyphen"/>tions the <hi>Romans</hi> fought for Dominion, with the <hi>Galls</hi> for the Preſervation of their own ſafety. But now it is high time to lay aſide Compariſon, and end my Diſcourſe of this mat<g ref="char:EOLhyphen"/>ter: Were it poſſible for me to particularize the Valour of our <hi>Engliſh</hi> Princes, Nobles,
+<pb n="64" facs="tcp:58158:39"/>and Gentry, I ſhould ſwell my Volume, and not attain my end, which is Brevi<g ref="char:EOLhyphen"/>ty.</p>
+            </div>
+            <div type="part">
+               <pb n="65" facs="tcp:58158:39"/>
+               <head>Of Strategems, and Examples thereof.</head>
+               <p>IT hath been ever held for a Maxim in War, that it is more Commendation to overcome by Strategeme, than by Sword; for how many Ci<g ref="char:EOLhyphen"/>ties has there been ſurprized by Warlike Strategems, when all the ſtrength imaginable could not have taken them o<g ref="char:EOLhyphen"/>therways. Certainly Strate<g ref="char:EOLhyphen"/>gems in War are like Dia<g ref="char:EOLhyphen"/>monds in a Ring; for as the Stones are more to be valued than the Ring it ſelf, ſo Stra<g ref="char:EOLhyphen"/>tegems in War are more to be
+<pb n="66" facs="tcp:58158:40"/>eſteemed than any other War<g ref="char:EOLhyphen"/>like action beſides; and the lawfulneſs thereof we need not doubt, <hi>Joſhua</hi> 8.2. we read that God commanded <hi>Joſhua</hi> to lie in ambuſh behind the City of <hi>Ai<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Judg.</hi> 20.29. by which Stategeme it was deſtroyed, and likewiſe <hi>Iſrael</hi> to ſet l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ers in wait round about <hi>Gibeah, &amp;c.</hi> Other Examples.</p>
+               <p>
+                  <hi>Darius</hi> beſieging the im<g ref="char:EOLhyphen"/>pregnable City of <hi>Babylon,</hi> which had revolted from him, after many ways and means aſſayed, knew not how to pre<g ref="char:EOLhyphen"/>vail; at laſt one of the Cheif Collonels, called <hi>Zopyrus,</hi> cauſed himſelf to be beaten black and blue, his Noſe, Lips, and Ears to be cut off, and acquain<g ref="char:EOLhyphen"/>ting
+<pb n="67" facs="tcp:58158:40"/>
+                  <hi>Darius</hi> with his purpoſe, he went to <hi>Babylon,</hi> into which being admitted, he ſhewed the People his diſmembred and torn Body, complains of the cruelty of <hi>Darius,</hi> and pro<g ref="char:EOLhyphen"/>fereth his beſt aſſiſtence to them againſt him; the Citi<g ref="char:EOLhyphen"/>zens knowing the worth of the Man, and not ſuſpecting the fraud, made him their Cap<g ref="char:EOLhyphen"/>tain; in ſome Skirmiſhes he beat the <hi>Perſians;</hi> at laſt ha<g ref="char:EOLhyphen"/>ving drawn forth all his ſtrength of the City, he be<g ref="char:EOLhyphen"/>trayed them to <hi>Darius,</hi> and ſo delivered up <hi>Babylon</hi> into his hands. After which <hi>Darius</hi> uſed to ſay, <hi>That he had rather hove one</hi> Zopyrus, <hi>than twenty Cities of</hi> Babylon.</p>
+               <p>
+                  <pb n="68" facs="tcp:58158:41"/>After the <hi>Lacedemonians</hi> had taken <hi>Thebes,</hi> ſeven of the ba<g ref="char:EOLhyphen"/>niſhed Men forſook <hi>Athens</hi> privately, and entred by night into the fields of <hi>Thebes,</hi> where ſpending the next day ſecretly, they came late in the evening to the Gates, like Husbandmen returned from work, and paſ<g ref="char:EOLhyphen"/>ſed undiſcovered unto the houſe of <hi>Charon,</hi> whom <hi>Phi<g ref="char:EOLhyphen"/>lidas</hi> the Scribe had drawn into conſpiracy. The day following a ſolemn Feaſt being held in the City, <hi>Philidas</hi> promiſed the Governours, who were inſolent and luſtfull Men, that he would conveigh unto them that night the beautifull Dames of the Town, with whom they ſhould take their
+<pb n="69" facs="tcp:58158:41"/>pleaſure; having cheared them with ſuch hope, and plenty of good Wine, he told them when the time of performance (which they urged) came, that he would not make good his promiſe unleſs they would diſmiſs their followers, becauſe the Gentle<g ref="char:EOLhyphen"/>women who attended without in a Chamber, would not in<g ref="char:EOLhyphen"/>dure that any of their Servants ſhould ſee their faces; upon which occaſion the Attendents were diſmiſſed, and the Con<g ref="char:EOLhyphen"/>ſpirators attired like Ladies, and their Maids brought into the place, who taking advan<g ref="char:EOLhyphen"/>tage of the Governours looſe behaviour, ſlew them all upon a ſudden, with Daggers, which they brought hidden under
+<pb n="70" facs="tcp:58158:42"/>their Garments; ſo by this Strategeme they did not only purchaſe the <hi>Thebans</hi> liberty, but freed themſelves of the <hi>Lacedemonian</hi> Garriſon. Sir <hi>W. Rawleigh.</hi>
+               </p>
+               <p>
+                  <hi>Cymon</hi> General of the <hi>Athe<g ref="char:EOLhyphen"/>nians</hi> triumphed over the <hi>Per<g ref="char:EOLhyphen"/>ſians</hi> twice in one day; for firſt, He lought a great Battel with them by Sea, upon the Confines of <hi>Aſia,</hi> wherein he gave them a great overthrow; and then taking the <hi>Perſian</hi> Ships, he put all his Valiant Soldiers into them, and dreſſed them in the <hi>Perſian</hi> Apparel, and ſo ſailing to the place where their Land Army lay, they took them for <hi>Perſiant,</hi> returning in Triumph from
+<pb n="71" facs="tcp:58158:42"/>the ſlaughter of the <hi>Athenians; Cymon</hi> therefore by his Strate<g ref="char:EOLhyphen"/>geme landing his Men, broke ſuddenly into the Camp of the <hi>Perſians,</hi> whom he quickly o<g ref="char:EOLhyphen"/>verthrew with a great ſlaugh<g ref="char:EOLhyphen"/>ter, and took twenty thouſand Priſoners, together with an infi<g ref="char:EOLhyphen"/>nite maſs of Treaſure, the tenth part whereof the <hi>Athenians</hi> de<g ref="char:EOLhyphen"/>dicated to their God's. <hi>Diod, Sic.</hi>
+               </p>
+               <p>
+                  <hi>Sertorius,</hi> the <hi>Roman</hi> Gene<g ref="char:EOLhyphen"/>ral, in his paſſage into <hi>Spain</hi> was forced to pay Tribute to many Barbarous People that inhabited the <hi>Pyrenean</hi> Moun<g ref="char:EOLhyphen"/>tains, over which he was to paſs; at this ſome of his Sol<g ref="char:EOLhyphen"/>diers muttered, ſaying, <hi>That it was an act very diſhonourable
+<pb n="72" facs="tcp:58158:43"/>for the</hi> Romans; but he told them, <hi>he only bought time, a commodity which ſuch as aſpire to haughty enterprizes, muſt take up at any rate.</hi>
+               </p>
+               <p>
+                  <hi>Cyaxazes,</hi> King of the <hi>Medes,</hi> who in his extremity was no better than a Rent-gatherer for the <hi>Scithians,</hi> perceiving that his Land lay unmanured and waſte, through the negligence of his People, that were out of heart by daily oppreſſions, and that the matter could not be remedied by open force, re<g ref="char:EOLhyphen"/>ſolved to prove what might be done by Strategeme; the ma<g ref="char:EOLhyphen"/>naging of the buſineſs is thus delivered in brief: that he, and his <hi>Medes,</hi> feaſted the better part of the <hi>Scithians,</hi> made
+<pb n="73" facs="tcp:58158:43"/>them drunk and ſlew them, recovering thereby the poſ<g ref="char:EOLhyphen"/>ſeſſion of all that they had loſt. <hi>Herod.</hi>
+               </p>
+               <p>
+                  <hi>Hannibal,</hi> to bring <hi>Fabius</hi> in<g ref="char:EOLhyphen"/>to diſlike, and in ſuſpicion with the <hi>Romans,</hi> commanded his Soldiers, when they came near any of <hi>Fabius</hi> his Lands, that they ſhould burn and deſtroy all round about them, but in no ways to meddle with or hurt either his Land, or any thing that was his. He alſo appointed a Party of Soldiers to ſee that nothing belonging to <hi>Fabius</hi> might miſcarry. <hi>Plut. in Vita Fa.</hi>
+               </p>
+               <p>The <hi>Moſcovites,</hi> not many years ſince, having beſieged the City of <hi>Smolensko</hi> in <hi>Lithu<g ref="char:EOLhyphen"/>ania</hi>
+                  <pb n="74" facs="tcp:58158:44"/>with an huge Army, <hi>Val<g ref="char:EOLhyphen"/>diſlaus,</hi> King of <hi>Poland,</hi> came to relieve the place; but the Enemy being ſtrongly En<g ref="char:EOLhyphen"/>trenched, he was not able to beat up their Quarters; where<g ref="char:EOLhyphen"/>upon he ſo entrenched himſelf, that he cut off all Proviſions from the <hi>Moſcovitiſh</hi> Army, whereby he reduced them to ſuch extremity, that they were forced either to ſtarve, or to render themſelves to his mercy. A terrible thing, and not heard of before, that a Hundred Thouſand Men ſhould bring their Arms and Colours, and caſt them at the feet of this victorious Prince: This was not only a Victory, but a monſter of a Victory; he pardoned them
+<pb n="75" facs="tcp:58158:44"/>all, and made the Strangers, which were about one Thou<g ref="char:EOLhyphen"/>ſand four Hundred Men, to promiſe never to bear Arms more againſt the Crown of <hi>Poland,</hi> and ſo diſmiſt them. <hi>Hiſt of this Iron Age.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="76" facs="tcp:58158:45"/>
+               <head>Of Expedition and Reſolution in War.</head>
+               <p>HE that will act great Matters, hath no grea<g ref="char:EOLhyphen"/>ter need of any thing than Time; and therefore ought a Prince to beg theſe two things at the hand of God; Length of Life, and Expedition in Exe<g ref="char:EOLhyphen"/>cution. <hi>Curtius</hi> doth attri<g ref="char:EOLhyphen"/>bute to <hi>Alexander</hi> for his great Expedition in War: <hi>For,</hi> ſaith he, <hi>I never commended any Vertue more in him than his Ce<g ref="char:EOLhyphen"/>lerity:</hi> And in truth, as if he had been the preſager of the ſhortneſs of his own Life,
+<pb n="77" facs="tcp:58158:45"/>both in Beginning and Proſe<g ref="char:EOLhyphen"/>cution of his Enterprize of <hi>A<g ref="char:EOLhyphen"/>ſia;</hi> for coming very late to the River <hi>Granico,</hi> and being expected on the other ſide by the Lieutenants of King <hi>Dari<g ref="char:EOLhyphen"/>us, Permenio</hi> did adviſe him to defer the Battel till the day following, which he refuſed to doe, for looſing of time, tell<g ref="char:EOLhyphen"/>ing him, <hi>that</hi> Helleſpont <hi>would bluſh for ſhame, if having paſſed it ſo boldly, he ſhould fear to ad<g ref="char:EOLhyphen"/>venture on ſo ſmall a paſſage:</hi> After his ſecond Battel he pur<g ref="char:EOLhyphen"/>ſued <hi>Darius</hi> with ſuch ſpeed, that in Eleven days he marched more then Six hundred Miles.</p>
+               <p>And <hi>Caeſar</hi> ſaith, That to give time of Preparation is the only way to arm his E<g ref="char:EOLhyphen"/>nemy,
+<pb n="78" facs="tcp:58158:46"/>and to put him in rea<g ref="char:EOLhyphen"/>dineſs; and indeed it beho<g ref="char:EOLhyphen"/>veth a good Captain if he be to deal with an Enemy, which is not all together weak in Force, or Judgment, to uſe ſuch Expedition in aſſailing him, or Art in deceiving him, that either he may want time to make Preparation, or Courage to encounter the Danger; for unfortunate muſt that Cap<g ref="char:EOLhyphen"/>tain be, if wanting neither Power nor Valour, and ha<g ref="char:EOLhyphen"/>ving time and intelligence, he doth not provide and order his Affairs as thereby he be a<g ref="char:EOLhyphen"/>ble to make the deſignment of his Adverſary either of none, or if any, yet of ſmall and contemptible Effect.</p>
+               <p>
+                  <pb n="79" facs="tcp:58158:46"/>
+                  <hi>Caeſar,</hi> in all his Battels, his uſe was to follow his Con<g ref="char:EOLhyphen"/>queſt, never leaving the chaſe, and purſuing his Enemies, (having once defeated them,) untill he had ſpoiled them of their Lodging, and made them wholly unable to make Head againſt him, wherein he did excellently help himſelf, by making uſe of their fear and diſorder: When <hi>Pompey</hi> knew not how to doe the like at <hi>Dar<g ref="char:EOLhyphen"/>rachium, Caeſar</hi> did thus con<g ref="char:EOLhyphen"/>ſure his overſight, That <hi>Pom<g ref="char:EOLhyphen"/>pey</hi> knew well how to over<g ref="char:EOLhyphen"/>come, but not how to uſe his Victory.</p>
+               <p>The ſame <hi>Caeſur</hi> did alſo advantage himſelf by the heat of Victory, inſomuch that
+<pb n="80" facs="tcp:58158:47"/>many times he finiſh'd a whole War with one only Over<g ref="char:EOLhyphen"/>throw; as by that of <hi>Pharſalia,</hi> he became Lord of all the Eaſt. With theſe of <hi>Lereda,</hi> and of <hi>Munda,</hi> firſt he conquer<g ref="char:EOLhyphen"/>ed, and afterwards recovered <hi>Spain;</hi> with that of <hi>Thapſus</hi> he made himſelf Maſter of <hi>A<g ref="char:EOLhyphen"/>frick,</hi> in which point <hi>Hanni<g ref="char:EOLhyphen"/>bal</hi> committed a great over<g ref="char:EOLhyphen"/>ſight, who having won four or five pitcht Fields, yet in the end ſate down with the loſs, and was quite overthrown.</p>
+               <p>But as in Actions, ſo in Marching <hi>Caeſar</hi> uſed Expedi<g ref="char:EOLhyphen"/>tion in all his Voyages; for in eight days he came from <hi>Rome</hi> to <hi>Geneva,</hi> and in twen<g ref="char:EOLhyphen"/>ty ſix days from <hi>Rome</hi> to the
+<pb n="81" facs="tcp:58158:47"/>Land of <hi>Ovilcone</hi> near unto <hi>Cordiba:</hi> He uſed the like Ex<g ref="char:EOLhyphen"/>pedition in getting and gain<g ref="char:EOLhyphen"/>ing of time, for that he might more fitly wage War. All the Summer he would let him<g ref="char:EOLhyphen"/>ſelf forwards, and travel in Winter; in which ſeaſon he paſſed from <hi>Bunda</hi> into <hi>Albina:</hi> In the Winter he made a cut out of <hi>Italy</hi> into <hi>Africa,</hi> and afterwards paſſed the <hi>Alps</hi> when the Snow lay ſix foot deep.</p>
+               <p>The ſame he uſed in all his other Actions, for in fifteen days he raiſed a Wall of Six foot in highth, and above Nineteen miles in length, (to wit) from <hi>Geneva</hi> Lake to Mount Saint <hi>Claud:</hi> In ten
+<pb n="82" facs="tcp:58158:48"/>days he built a Bridge over the <hi>Rhine;</hi> and in ſo many he haled his whole <hi>Navy</hi> on ſhoar, wherewith he paſſed in to <hi>Britain,</hi> Rigging it anew and making it fit for the Sea:</p>
+               <p>To ſumme up all his Enter<g ref="char:EOLhyphen"/>prizes, he uſed that expediti<g ref="char:EOLhyphen"/>on, that overcoming King <hi>Pharnaſes,</hi> and being deſirous to advertize one of his friends of his quick Expedition in diſ<g ref="char:EOLhyphen"/>patching that War, he wrote only three Words unto <hi>Aniti<g ref="char:EOLhyphen"/>us</hi> at <hi>Rome: Veni, Vidi, Vici.</hi> I came, I ſaw, I overcame.</p>
+               <p>But it is not e<g ref="char:EOLhyphen"/>nough for a Com<g ref="char:EOLhyphen"/>mander to uſe Speed and Expedi<g ref="char:EOLhyphen"/>tion in Execution of his En<g ref="char:EOLhyphen"/>terprize,
+<note place="margin">Of Reſo<g ref="char:EOLhyphen"/>lution in War.</note>
+                  <pb n="83" facs="tcp:58158:48"/>unleſs he be alſo con<g ref="char:EOLhyphen"/>ſtant, and reſolute of Courage in Chances and Checks of Fortune, in Perils and Dangers; whereupon the ſaid <hi>Caeſar</hi> without all doubt ſurpaſſed all other Captains, whoſe memo<g ref="char:EOLhyphen"/>rable Proweſs, by the help of Learning, hath come to the Knowledge of Poſterity: For up<g ref="char:EOLhyphen"/>on many occaſions oppoſing himſelf alone againſt his fly<g ref="char:EOLhyphen"/>ing and diſcomfited Soldiers, ſometimes pulling them back one by one, and another while forcing them to turn again, He would rally Ranks half broken, and renew a Battel at the point of wavering, re-ſe<g ref="char:EOLhyphen"/>curing whatſoever before was doubtfull: In the Field which
+<pb n="84" facs="tcp:58158:49"/>he fought with the <hi>Nericy,</hi> the Battel being brought to that Exegent, that his whole Cavalry was upon point of flight, and the Seventh and Twelfth <hi>Legions</hi> in great di<g ref="char:EOLhyphen"/>ſtreſs, their Captains and Com<g ref="char:EOLhyphen"/>manders being allmoſt ſlain; <hi>Caeſar</hi> caſting his Shield on his Arm, and preſſing through the midſt of the Squadrons to the Front of the Battel, he made ſuch Proof of his Va<g ref="char:EOLhyphen"/>lour, that partly upon his Example, and partly for the Danger wherein they ſaw their General engaged, the Soldiers perceiving hopes, ga<g ref="char:EOLhyphen"/>thering ſtrength and courage a freſh, renewed the fight, and ſo Valiantly behaved them<g ref="char:EOLhyphen"/>ſelves,
+<pb n="85" facs="tcp:58158:49"/>that fifty thouſand of their Enemies lay ſlain on the Place; by which Preſident it may plainly be ſeen, how much Reſolution and Expedi<g ref="char:EOLhyphen"/>tion import a General: For albeit that <hi>Caeſar</hi> was a Cap<g ref="char:EOLhyphen"/>tain ſo wary, and ſo circum<g ref="char:EOLhyphen"/>ſpect, yet was he ſuddenly and ſecretly ſet upon by the Policy of his Enemies, who being covered with the-thick<g ref="char:EOLhyphen"/>neſs of theſe Boughs which did over ſpread them, were ſoon<g ref="char:EOLhyphen"/>er felt than ſeen; he wanted but little of his lateſt Ruine, and final Overthrow, had he not helped himſelf by his in<g ref="char:EOLhyphen"/>nate Valour, and ſpeedy Order.</p>
+               <p>In his War of <hi>Africa,</hi> his Soldiers being put to the
+<pb n="86" facs="tcp:58158:50"/>worſt, he lugged one of his Enſign-bearers by the Throat, and turning him towards his Enemies, <hi>There, there,</hi> ſaid he, <hi>are thoſe againſt whom thou muſt fight:</hi> In the very ſame War, the Enemies having given his Men ſo furious a Charge, that they had already entred their Rampiers, and fell pell-mell with his Soldiers, <hi>Caeſar</hi> thruſting forward amongſt them, by his preſence and ex<g ref="char:EOLhyphen"/>ample reheartened the one, and reſtrained the other.</p>
+               <p>And likewiſe in <hi>Spain,</hi> per<g ref="char:EOLhyphen"/>ceiving his Soldiers ready to fly, traverſing the Troups, and poſting themſelves from one unto another, what with ealling upon them, and what
+<pb n="87" facs="tcp:58158:50"/>with lying about, he ſo ma<g ref="char:EOLhyphen"/>naged the Matter, that his Men for very ſhame, not to be ſaid to forſake their General, if not betray him, took Heart and Courage, and obtained Victory, with the death of thir<g ref="char:EOLhyphen"/>ty Thouſand <hi>Pompeians.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="88" facs="tcp:58158:51"/>
+               <head>Of Errours in War, and the evil Conſe<g ref="char:EOLhyphen"/>quences thereof.</head>
+               <p>IN Military Affairs it is ex<g ref="char:EOLhyphen"/>treme folly, and much blamable to ſay, <hi>I did not think it;</hi> for in other occur<g ref="char:EOLhyphen"/>rences an Errour may haply be amended, but Over-ſight in War-fare, without puniſhment and repentance inſtantly ac<g ref="char:EOLhyphen"/>companying them, cannot poſſibly be redreſſed; and there<g ref="char:EOLhyphen"/>fore it ſtandeth with the Re<g ref="char:EOLhyphen"/>putation of a General to pre<g ref="char:EOLhyphen"/>meditate throughly upon his
+<pb n="89" facs="tcp:58158:51"/>deſignments, and to have an open and a watchfull Eye, e<g ref="char:EOLhyphen"/>ven upon Matters of ſmalleſt Moment.</p>
+               <p>We read that <hi>Sempronius</hi> committed there great Errours, which every one deſerved to be recompenced with the loſs that followed; the firſt was, That he fought with <hi>Hanni<g ref="char:EOLhyphen"/>bal</hi> in a Campaigne, being by far inferiour in Horſe, and withall thereby ſubject to the <hi>African</hi> Elephants, which in in<g ref="char:EOLhyphen"/>cloſed or uneven Grounds, and Woodlands, would have been of no uſe.</p>
+               <p>
+                  <pb n="90" facs="tcp:58158:52"/>His Second Er<g ref="char:EOLhyphen"/>rour was,
+<note place="margin">
+                     <hi>In the Bat<g ref="char:EOLhyphen"/>tel of</hi> Tre<g ref="char:EOLhyphen"/>bia, <hi>both the</hi> Romane <hi>Conſulswere beaten by</hi> Hannibal.</note> That he made no diſcove<g ref="char:EOLhyphen"/>ry of the place upon which he fought; whereby he was groſsly o<g ref="char:EOLhyphen"/>ver-reacht, and enſnar'd by the Ambuſh which <hi>Hannibal</hi> had laid for him.</p>
+               <p>The third was, That he drencht his Foot men with em<g ref="char:EOLhyphen"/>pty Stomachs in the River of <hi>Trebia,</hi> even in a cold and fro<g ref="char:EOLhyphen"/>ſty day, whereby in effect they loſt their Limbs; for there is nothing in the World more inconvenient and perilous, than to preſent an Army, ti<g ref="char:EOLhyphen"/>red with Travel, to an Enemy freſh and fed, ſince thereby the
+<pb n="91" facs="tcp:58158:52"/>Strength of the Body faileth, the Generoſity of the Mind is but an empty Vapour. When the Knowledge of <hi>Alexander</hi>'s Landing on <hi>Aſia</hi> ſide was brought to <hi>Darius,</hi> he ſo much ſcorn'd the Army of <hi>Macedon,</hi> and had ſo contemptible an opinion of <hi>Alexander</hi> himſelf, as having ſtyled him his Ser<g ref="char:EOLhyphen"/>vant on a Letter which he had wrote unto him, reprehending his Diſloyalty and Audacity, (for <hi>Darius</hi> entitled himſelf King of Kings, and Kinſman to the Gods,) he gave order withall to his Lieutenants of Leſſer <hi>Aſia,</hi> that they ſhould take <hi>Alexander</hi> alive, whip him with Rods, and then con<g ref="char:EOLhyphen"/>vey him to his Preſence; that
+<pb n="92" facs="tcp:58158:53"/>they ſhould ſink his Ships, and ſend the <hi>Macedons</hi> taken Pri<g ref="char:EOLhyphen"/>ſoners beyond the red Sea, be<g ref="char:EOLhyphen"/>like into <hi>Aethiopia,</hi> or ſome o<g ref="char:EOLhyphen"/>ther unhealthfull Part of <hi>A<g ref="char:EOLhyphen"/>frica;</hi>
+                  <note place="margin">Darius <hi>loſt in one Battel, a<g ref="char:EOLhyphen"/>gainſt</hi> Alex<g ref="char:EOLhyphen"/>ander, <hi>as</hi> Cur<g ref="char:EOLhyphen"/>tius <hi>ſaith,</hi> 100000 <hi>Foot, and as many Horſe, and</hi> 40000 <hi>taken Priſoners, when</hi> Alexan<g ref="char:EOLhyphen"/>der<hi>'s Army there miſcarried, but</hi> 200 <hi>and</hi> 80 <hi>in all ſorts.</hi>
+                  </note> but by the Experience of his own overthrow, he found his grand Errour, im<g ref="char:EOLhyphen"/>puting too much confidence in a multitude of diſ<g ref="char:EOLhyphen"/>orderly and un<g ref="char:EOLhyphen"/>warlike Men.</p>
+               <p>We ſee what Errour the Em<g ref="char:EOLhyphen"/>pire of <hi>Conſtantinople</hi> com<g ref="char:EOLhyphen"/>mitted (in uſing the help of
+<pb n="93" facs="tcp:58158:53"/>foreign Auxiliaries) in taking ten Thouſand <hi>Turks</hi> againſt his Nighbour Princes, he could never, by Perſuaſion or Force, ſet them again over Sea upon <hi>Aſia</hi> ſide, which gave begin<g ref="char:EOLhyphen"/>ning to the Chriſtian Servi<g ref="char:EOLhyphen"/>tude, that ſoon after followed.</p>
+               <p>
+                  <hi>Alexander,</hi> the Son of <hi>Caſ<g ref="char:EOLhyphen"/>ſander,</hi> ſought aid of the great <hi>Demetrius,</hi> who, being entred into his Kingdom, ſlew the Son, <hi>Alexander</hi> that had invi<g ref="char:EOLhyphen"/>ted him, and made himſelf King of <hi>Macedon.</hi>
+               </p>
+               <p>
+                  <hi>Syracon</hi> the <hi>Turk</hi> was called into <hi>Aegypt</hi> by <hi>Sanor</hi> the <hi>Sol<g ref="char:EOLhyphen"/>dane</hi> againſt his oppoſite, but the <hi>Turk</hi> did ſettle himſelf ſo ſaft in <hi>Aegypt,</hi> that <hi>Solidon</hi> his Succeſſour became Lord
+<pb n="94" facs="tcp:58158:54"/>thereof, and all the Holy Land ſoon after.</p>
+               <p>What need we look about for Examples of this Kind, e<g ref="char:EOLhyphen"/>very Nation in effect can fur<g ref="char:EOLhyphen"/>niſh us; the <hi>Britains</hi> drew the <hi>Saxons</hi> into this our Country, and <hi>Macmurrough</hi> drew the <hi>En<g ref="char:EOLhyphen"/>gliſh</hi> into <hi>Ireland;</hi> but the one and the other ſoon became Lords of theſe two Kingdoms.</p>
+            </div>
+            <div type="part">
+               <pb n="95" facs="tcp:58158:54"/>
+               <head>Of Honourable Re<g ref="char:EOLhyphen"/>treats, with Exam<g ref="char:EOLhyphen"/>ples thereof.</head>
+               <p>IT is the true Judgment of Men of War, Honourable Retreats are no way inferiour to brave Charges, as having leſs of Fortune, more of Diſci<g ref="char:EOLhyphen"/>pline, and as much of Valour: <hi>Darius</hi> was overthrown with all his Cowardly and Confu<g ref="char:EOLhyphen"/>ſed Rabble, when thoſe <hi>Greci<g ref="char:EOLhyphen"/>ans</hi> under their Captain <hi>Amin<g ref="char:EOLhyphen"/>tas</hi> held firm, and marched a<g ref="char:EOLhyphen"/>way in order, in diſpight of the Vanquiſhers; old Soldiers are
+<pb n="96" facs="tcp:58158:55"/>not eaſily diſmay'd. We read in Hiſtories Ancient and Mo<g ref="char:EOLhyphen"/>dern, what brave Retreats have been made by them, though the reſt of the Army in which they have ſerved hath been broken.</p>
+               <p>At the Battel of <hi>Ravenne</hi> were the Imperialiſts were bea<g ref="char:EOLhyphen"/>ten by the <hi>French,</hi> a Squadron of <hi>Spaniards,</hi> old Soldiers, came off unbroken and undiſmay'd; for it is truly ſaid by theſe men, who by being acquainted with dangers, fear them not, they go about the buſineſs it ſelf, how hard ſoever it be, not ſtanding to conſider of danger, which the miſchief hanging o<g ref="char:EOLhyphen"/>ver their Heads may bring, and as truly of thoſe that do
+<pb n="97" facs="tcp:58158:55"/>know the Wars but by hear<g ref="char:EOLhyphen"/>ſay; they have ability enough, and to ſpare, till dangers ap<g ref="char:EOLhyphen"/>pear, but when Perils indeed come they get them gone.</p>
+               <p>In the Year one thouſand five hundred and eighty two, was that memorable Retreat of <hi>Gaunt,</hi> than which there hath not been an Exploit of War more celebrated; for the number of <hi>Engliſh</hi> were but three hundred Horſe, and as many thouſand Foot, (com<g ref="char:EOLhyphen"/>manded by Sir <hi>John Norris</hi>) charged by the Prince of <hi>Par<g ref="char:EOLhyphen"/>ma,</hi> coming upon them with ſeven thouſand Horſe, beſide that, the whole Army of <hi>Spaniards</hi> was ready to march on, nevertheleſs Sir <hi>John Nor<g ref="char:EOLhyphen"/>ris</hi>
+                  <pb n="98" facs="tcp:58158:56"/>maintained a Retreat with<g ref="char:EOLhyphen"/>out diſarray, by the ſpace of ſome Miles, (part of the way Campaign) unto the City of <hi>Gaunt</hi> with leſs loſs of Men than the Enemy; the Duke of <hi>Anjou,</hi> and the Prince of <hi>Orange</hi> beholding this noble Action from the Walls of <hi>Gaunt,</hi> as in a <hi>Theatre,</hi> with great Admira<g ref="char:EOLhyphen"/>tion.</p>
+            </div>
+            <div type="part">
+               <pb n="99" facs="tcp:58158:56"/>
+               <head>Of Temperance and Chaſtity in Com<g ref="char:EOLhyphen"/>manders, with Ex<g ref="char:EOLhyphen"/>amples thereof.</head>
+               <p>TEmperance in Comman<g ref="char:EOLhyphen"/>ders is the only Safe<g ref="char:EOLhyphen"/>guard againſt all Surprizals. We read of <hi>Commodius</hi> his De<g ref="char:EOLhyphen"/>puty in <hi>Britain: <g ref="char:V">Ʋ</g>lpius Mar<g ref="char:EOLhyphen"/>rellus</hi> was ſo Temperate, that he cauſed his bread to be brought into the Camp from <hi>Rome,</hi> that for the ſtaleneſs of it, he might eat no more than was needfull, and ſo vigilant, that his Soldiers thought he
+<pb n="100" facs="tcp:58158:57"/>never ſlept at Night, by which imitation they became a moſt Watchfull and Obedient peo<g ref="char:EOLhyphen"/>ple; for it is very obſervable, that Soldiers are ambitious to follow Examples of their Cap<g ref="char:EOLhyphen"/>tains, whether it be either in Arts of Vertue or Vice.</p>
+               <p>
+                  <hi>Alexander</hi> as long as he li<g ref="char:EOLhyphen"/>ved within the bounds of Temperance, how Obedient were his Officers and Soldiers to him! but as ſoon as he gave himſelf up to Wine, we read not only Mutinies a<g ref="char:EOLhyphen"/>mongſt his Soldiers, but Trea<g ref="char:EOLhyphen"/>ſon (by his Officers) hatching againſt his own Perſon, for Wine begets Fury, Fury mat<g ref="char:EOLhyphen"/>ter of Repentance, but pre<g ref="char:EOLhyphen"/>ceding
+<pb n="101" facs="tcp:58158:57"/>miſchiefs are not a<g ref="char:EOLhyphen"/>mended by ſucceeding bewai<g ref="char:EOLhyphen"/>lings; Drunkenneſs both kin<g ref="char:EOLhyphen"/>dles, and lays open every Vice, it removes out of the way that ſhame which gives impe<g ref="char:EOLhyphen"/>diment unto bad attempts; for where Wine gets the Ma<g ref="char:EOLhyphen"/>ſtery, all the ill that before lies hidden breaks out: Drun<g ref="char:EOLhyphen"/>kenneſs indeed rather diſco<g ref="char:EOLhyphen"/>vers Vices, than makes them.</p>
+               <p>Amongſt the <hi>Turks</hi> the pro<g ref="char:EOLhyphen"/>hibition of Wine in time of War is ever puniſhed with Death: I have read of two men put to Death for bring<g ref="char:EOLhyphen"/>ing a very ſmall quantity of Wine into the Camp; for here men become Sober, Diligent, Watchfull, and Obedient; in
+<pb n="102" facs="tcp:58158:58"/>the <hi>Turkiſh</hi> Camp, no brauls, quarrels, nor clamours are heard; no abuſes are commit<g ref="char:EOLhyphen"/>ted on their People in the march of their Army; all is bought and paid with money as by Travellers that are gueſts at an Inn: There are no Complaints by Mothers of the Rape of their Virgin Daughters, no violences of Robberies offer'd on the Inha<g ref="char:EOLhyphen"/>bitants: All which good or<g ref="char:EOLhyphen"/>der tends to the Succeſs of their Arms, and the Enlarge<g ref="char:EOLhyphen"/>ment of their Empire; as on the contrary, too much Liber<g ref="char:EOLhyphen"/>ty given to the Chriſtian Sol<g ref="char:EOLhyphen"/>diers, eſpecially in drinking, is the only cauſe which moves them to a luſt and promti<g ref="char:EOLhyphen"/>tude
+<pb n="103" facs="tcp:58158:58"/>to all Evils, and is the occaſion of the horrid outra<g ref="char:EOLhyphen"/>ges they commit, quarrels a<g ref="char:EOLhyphen"/>mongſt themſelves, and diſ<g ref="char:EOLhyphen"/>obedience to their Officers, and betrays oftentimes a whole Army to ruine by ſurprizal; for how can thoſe men be watchfull, whoſe Heads are charged with the fumes of ſtrong drink?</p>
+               <p>
+                  <hi>Ageſilaus,</hi> King of <hi>Sparta,</hi>
+                  <note place="margin">Chaſtity.</note> was a great Lover of Chaſtity, and he was a great Conqueror of others, ſo alſo he conque<g ref="char:EOLhyphen"/>red his own Luſts; inſomuch that in his Journeys he would never lodge in private Houſes where he might have the
+<pb n="104" facs="tcp:58158:59"/>Company of Women, but e<g ref="char:EOLhyphen"/>ver lodg'd either in Temples, or in open Fields, making all men witneſſes of his Modeſty and Chaſtity. <hi>Plut.</hi>
+               </p>
+               <p>
+                  <hi>Alexander</hi> the Great, being in the heat of Youth, ſhewed an admirable Example of Cha<g ref="char:EOLhyphen"/>ſtity, when having taken the Wives and Daughters of <hi>Dari<g ref="char:EOLhyphen"/>us,</hi> which were Women of admirable Beauty, yet he nei<g ref="char:EOLhyphen"/>ther by Word nor Deed pro<g ref="char:EOLhyphen"/>fer'd them the leaſt Indignity, thinking it a greater Honour to overcome himſelf, than his Adverſaries; and when he looked upon the other Cap<g ref="char:EOLhyphen"/>tive Ladies that exceeded in Stature and Beauty, He mer<g ref="char:EOLhyphen"/>rily
+<pb n="105" facs="tcp:58158:59"/>ſaid, <hi>Perſides oculorum do<g ref="char:EOLhyphen"/>lores eſſe,</hi> That the <hi>Perſian</hi> Women were a diſeaſe of the Eyes; and yet he looked on them as but on ſo many Sta<g ref="char:EOLhyphen"/>tues; and underſtanding that two of his Captains under <hi>Per<g ref="char:EOLhyphen"/>menio</hi> had raviſhed two of the <hi>Perſian</hi> Wives, he wrote to him to enquire after the mat<g ref="char:EOLhyphen"/>ter, and if he found it true, that he ſhould cut off their Heads, as of Beaſts born for the hurt of Mankind; he alſo wrote him Word that he him<g ref="char:EOLhyphen"/>ſelf was ſo far from contem<g ref="char:EOLhyphen"/>plating the Beauty of <hi>Darius</hi>'s Wife, that he would not as much as have her commen<g ref="char:EOLhyphen"/>ded in his preſence; and that he was ſo carefull of her and
+<pb n="106" facs="tcp:58158:60"/>her Daughters Chaſtity, that they lived in his Camp, ſhut up in their Tent, as if they had been in a Temple. <hi>Plut.</hi>
+               </p>
+               <p>
+                  <hi>Scipio Africanus</hi> warring in <hi>Spain,</hi> took new <hi>Carthage</hi> by Storm, at which time a Beau<g ref="char:EOLhyphen"/>tifull and Noble Virgin fled to him for Succour to preſerve her Chaſtity: He, being but Twenty four years old, and ſo in the heat of Bloud, hea<g ref="char:EOLhyphen"/>ring of it, would not ſuffer her to come into his ſight, for fear of a Temptation, but cauſed her to be reſtored in ſafety to her Father, <hi>Aurel. Victor.</hi>
+               </p>
+               <p>
+                  <pb n="107" facs="tcp:58158:60"/>
+                  <hi>Aurelian,</hi> an Heathen Empe<g ref="char:EOLhyphen"/>rour, was ſo carefull to preſerve the Chaſtity of Women, that one of his Soldiers being found guilty of lying with his Ho<g ref="char:EOLhyphen"/>ſteſs, he commanded that two young Trees ſhould be bow<g ref="char:EOLhyphen"/>ed down, and the Soldier's legs tied thereto; which be<g ref="char:EOLhyphen"/>ing ſuddenly let go, tore him into two pieces.</p>
+            </div>
+            <div type="part">
+               <pb n="108" facs="tcp:58158:61"/>
+               <head>Compaſſion in War.</head>
+               <p>VAlour is then beſt tem<g ref="char:EOLhyphen"/>per'd, when it can turn out of a ſtern Fortitude, into the mild ſtrains of Pity: It is written to the Honour of <hi>Tamberlane,</hi> that Conquering the <hi>Moſcovites</hi> with a Prince<g ref="char:EOLhyphen"/>ly Valour, he falls from the Joys of the Victory to a La<g ref="char:EOLhyphen"/>mentation of the many ca<g ref="char:EOLhyphen"/>ſual miſeries they endure, who are tied to follow the leading of Ambitious Generals, and all this from the ſight of the Field covered with the Soul<g ref="char:EOLhyphen"/>leſs men. Some report of
+<pb n="109" facs="tcp:58158:61"/>
+                  <hi>Caeſar</hi> that he wept when he heard how <hi>Pompey</hi> dyed: Though Pity be a downy Vertue, yet ſhe never ſhines more brightly than when ſhe is clad in Steel. A mar<g ref="char:EOLhyphen"/>tial man compaſſionate ſhall conquer both in Peace and War, and by a two-fold way get Victory with Honour.</p>
+               <p>
+                  <hi>Titus Veſpaſianus,</hi> was ſo Compaſſionate, That he ſaid, he would rather dye himſelf, than put others to death: He pro<g ref="char:EOLhyphen"/>ceeded no farther againſt two Noble Men, convicted for Affe<g ref="char:EOLhyphen"/>cting, and Aſpiring to the Em<g ref="char:EOLhyphen"/>pire, than to admoniſh them to deſiſt and give over, ſaying, That Sovereign Power was the
+<pb n="110" facs="tcp:58158:62"/>Gift of Deſtiny and Divine Pro<g ref="char:EOLhyphen"/>vidence, if they were Petiti<g ref="char:EOLhyphen"/>oners for any thing elſe, he promiſed to give it unto them.</p>
+               <p>
+                  <hi>Sueton,</hi> when <hi>Alaxander</hi> by <hi>Permenio</hi> won <hi>Miletus,</hi> and by force maſtered <hi>Halicar<g ref="char:EOLhyphen"/>naſſus,</hi> which, becauſe it re<g ref="char:EOLhyphen"/>ſiſted obſtinately, he razed to the ground; from thence he entred into <hi>Caria,</hi> where <hi>Ada</hi> the Queen, who had been caſt out of all that ever ſhe held (except the City of <hi>Alinda</hi>) by <hi>Darius</hi> his Lieutenant, pre<g ref="char:EOLhyphen"/>ſented her ſelf unto him, and adopted him her Son, and Succeſſour, which <hi>Alexander</hi> accepted in ſuch gratious part, that he left the whole
+<pb n="111" facs="tcp:58158:62"/>Kingdom to her diſpoſing (Sir <hi>Walter R.</hi>)</p>
+               <p>It was duly obſerved, that as often as <hi>Octavius Auguſtus</hi> entred <hi>Rome,</hi> no puniſhment that day was inflicted upon a<g ref="char:EOLhyphen"/>ny perſon; he was griev'd him<g ref="char:EOLhyphen"/>ſelf when he pronounc'd a grievous Sentence, and he thought himſelf puniſhed when he puniſhed others. <hi>Senec.</hi>
+               </p>
+               <p>When the ſame <hi>Auguſtus</hi> had by Proclamation promi<g ref="char:EOLhyphen"/>ſed a great ſumme of money to him that ſhould bring in that famous Pirate <hi>Corocoto,</hi> and put him into his Power, he knowing the Emperour's mild
+<pb n="112" facs="tcp:58158:63"/>and temperate Vein, took the boldneſs to come in him<g ref="char:EOLhyphen"/>ſelf, and demanded the ſumme promiſed to him that ſhould bring him in, <hi>Auguſtus</hi> both Pardoned him, and gave him the Money. <hi>Dion.</hi>
+               </p>
+               <p>
+                  <hi>Craſſus</hi> taken by <hi>Cyrus</hi> and impriſoned, deſpoiled of all things but the expectation of Death, he was forthwith tied in Fetters, and ſet on the top of a great and high heap of Wood, to be conſumed to aſhes thereon; to which when the Fire was kindled, remembring the diſcourſe which he had had with the <hi>Athenian</hi> Law-giver, he thrice cried out on his Name; <hi>So<g ref="char:EOLhyphen"/>lon,
+<pb n="113" facs="tcp:58158:63"/>Solon, Solon,</hi> and being demanded what he meant by that invocation, he firſt uſed ſilence, but urged again, he told them that he now found it true which <hi>Solon</hi> had long ſince told him; <hi>That many men in the Race and Courſes of their lives may well be coun<g ref="char:EOLhyphen"/>ted fortunate; but no man could diſcern himſelf happy in<g ref="char:EOLhyphen"/>deed till his End:</hi> Of which Anſwer <hi>Cyrus</hi> being ſpeedily informed, and remembring the Changes of Fortune, and his own Mortality, he com<g ref="char:EOLhyphen"/>manded his Miniſters of Juſtice to withdraw the Fire with all diligence, and did not only ſpare his Life, but enter<g ref="char:EOLhyphen"/>tained him ever after as a
+<pb n="114" facs="tcp:58158:64"/>King, and his Companion. Sir <hi>Walt. R.</hi>
+               </p>
+               <p>
+                  <hi>Julius Caeſar</hi> ſaid, the great<g ref="char:EOLhyphen"/>eſt Pleaſure that ever he took of his Victories was, that he daily ſav'd the Lives of ſome of his Country-men that bore Arms againſt him: And when <hi>Pompey</hi>'s Head was preſented unto him, he wept bitterly and cauſed him to be honou<g ref="char:EOLhyphen"/>rably Buried; Saying, <hi>Ego Pompeii caſum deploro, &amp; meam fortunam metuo;</hi> I la<g ref="char:EOLhyphen"/>ment <hi>Pompeys</hi> Fall, and fear my own Misfortune.</p>
+               <p>From which we may ob<g ref="char:EOLhyphen"/>ſerve in the general, That the moſt fam'd Men in the World,
+<pb n="115" facs="tcp:58158:64"/>have had in them both Cou<g ref="char:EOLhyphen"/>rage and Compaſſion, and of<g ref="char:EOLhyphen"/>ten times wet Eyes as well as wounding hands.</p>
+            </div>
+            <div type="part">
+               <pb n="116" facs="tcp:58158:65"/>
+               <head>Of Fame gotten in War, with Ex<g ref="char:EOLhyphen"/>amples thereof.</head>
+               <p>
+                  <hi>PLutarch</hi> tells of a poor <hi>Indian,</hi> that would rather endure a dooming to death, than ſhoot before <hi>Alexander</hi> when he had diſcontinued, leaſt by ſhooting ill he ſhould loſe the Fame he had got<g ref="char:EOLhyphen"/>ten. Doubtleſs even this man was ordered by a Power above him, which inſtilleth into the minds of all men, an ardent Appetition of a laſt<g ref="char:EOLhyphen"/>ing fame. Deſire of Glory is
+<pb n="117" facs="tcp:58158:65"/>the laſt Garment that every Wiſe man lays aſide, not that it betters himſelf being gone, but that it ſtirs up thoſe that follow him to an earneſt en<g ref="char:EOLhyphen"/>deavour of Noble Actions, which is the only means to win the Fame we wiſh for.</p>
+               <p>
+                  <hi>David</hi> durſt fight with the great <hi>Philiſtian,</hi> after he heard how the man ſhould be ho<g ref="char:EOLhyphen"/>noured that ſlew him.</p>
+               <p>
+                  <hi>Themiſtocles,</hi> that ſtreamed out his youth in Vine and Venery, and was ſuddenly changed into a Vertuous and Valiant man, told one that ask'd what did ſo ſtrang<g ref="char:EOLhyphen"/>ly
+<pb n="118" facs="tcp:58158:66"/>change him, That the Tro<g ref="char:EOLhyphen"/>phy of <hi>Miltiades</hi> would not let him ſleep.</p>
+               <p>
+                  <hi>Tamberlane</hi> made it his practice to read often the Heroick Deeds of his own Progenitors, not as boaſting in them, but as Glorious Ex<g ref="char:EOLhyphen"/>amples propounded to en<g ref="char:EOLhyphen"/>flame his Vertues: Surely no<g ref="char:EOLhyphen"/>thing awakes our ſleeping Vertues like the Noble Acts of our Predeceſſours; how many Valiant Soldiers does a generous Leader make! <hi>Brutus</hi> and others bred many conſtant Patriots. Fame, I confeſs, I find more eagerly purſued by the <hi>Heathens,</hi> than by the <hi>Chriſtians</hi> of theſe
+<pb n="119" facs="tcp:58158:66"/>times; the Immortality as they thought of their Name was to them as the Immor<g ref="char:EOLhyphen"/>tality of the Soul to us, a ſtrong reaſon to perſuade to worthineſs; their Knowlege halted in the latter, ſo they reſted in the firſt, which of<g ref="char:EOLhyphen"/>ten made them ſacrifice their Lives to that which they eſteemed above their Lives, their Fame.</p>
+               <p>When <hi>Philip</hi> asked <hi>Dome<g ref="char:EOLhyphen"/>tritus,</hi> if he did not fear to loſe his Head; <hi>He</hi> anſwered <hi>no, for if he did, the</hi> Atheni<g ref="char:EOLhyphen"/>ans <hi>would give him one Immor<g ref="char:EOLhyphen"/>tal, he ſhould be ſtatued in the Treaſure of Eternal Fame.</hi>
+               </p>
+               <p>
+                  <pb n="120" facs="tcp:58158:67"/>
+                  <hi>Alexander Magnus,</hi> when he came to <hi>Achilles</hi>'s Tomb, he fell a weeping, to conſider that he had <hi>Homer</hi> to ſing his Praiſes, and to perpetuate them, whereas he had no ſuch Poet to ſet forth his Com<g ref="char:EOLhyphen"/>mendation. And <hi>Lyſander,</hi> the <hi>Lacedemonian,</hi> ſeeking after Fame, had always about him <hi>Choerilus</hi> the Poet, that he might celebrate in Verſe all his Victories and Vertues.</p>
+               <p>
+                  <hi>Auguſtus Coeſar,</hi> when he had made his Will, affixed to it four Books, wherein all his great Actions were recorded, requiring that they ſhould be engraven in Brazen-Pillars of
+<pb n="121" facs="tcp:58158:67"/>his Sepulchre. And <hi>Alphonſus</hi> King of <hi>Aragon</hi> and <hi>Sicily,</hi> ſeek<g ref="char:EOLhyphen"/>ing Glory and Fame, did not only build many ſtately Edi<g ref="char:EOLhyphen"/>fices, but kept about him <hi>Parnormitan,</hi> an excellent Poet, and <hi>Bartholomew Faccius,</hi> a skilfull Hiſtorian, to record his Actions.</p>
+               <p>
+                  <hi>Cornelius Gallus</hi> being ſent by <hi>Octavius Caeſar</hi> to govern <hi>Aegypt,</hi> he began to grow ve<g ref="char:EOLhyphen"/>ry Proud of his great Hon<g ref="char:EOLhyphen"/>our; commanding his Sta<g ref="char:EOLhyphen"/>tues to be erected upon the Pyramides.</p>
+               <p>
+                  <hi>Pompey</hi> the Great, when <hi>Theophanes</hi> of <hi>Mytelene</hi> had written his great Victories and Praiſes, by way of Re<g ref="char:EOLhyphen"/>compence, beſtowed a City upon him.</p>
+               <p>
+                  <pb n="122" facs="tcp:58158:68"/>
+                  <hi>Belizarius,</hi> after he had of<g ref="char:EOLhyphen"/>ten overcome the <hi>Goths</hi> in <hi>Italy,</hi> and had taken Priſoner their King <hi>Vitiges,</hi> as alſo <hi>Gilimer</hi> King of the <hi>Vandals</hi> in <hi>Africk,</hi> and had ſettled <hi>A<g ref="char:EOLhyphen"/>frick</hi> and <hi>Sicily</hi> in peace, and often Triumphed over the <hi>Perſians,</hi> he cauſed a Golden Croſs of an hundred pound weight, ſet with precious Stones, to be made, and thereon to be ingraven all his Victories; which he dedica<g ref="char:EOLhyphen"/>ted to St. <hi>Peter</hi>'s Church in <hi>Rome,</hi> preſuming that out of reſpect to the Holineſs of the Place, it would continue there as a laſting Monument of his Praiſes. But of all, I like him beſt, who does things that de<g ref="char:EOLhyphen"/>ſerve
+<pb n="123" facs="tcp:58158:68"/>a fame without a ſearch, or caring for it; Since for a mean man to thirſt after mighty Fame, is a kind of fond Ambition.</p>
+               <p>Can we think a Mouſe able to caſt a ſhadow like an Ele<g ref="char:EOLhyphen"/>phant? Can a Sparrow have a train like an Eagle? Great Fame is for great Princes, and ſuch who for their Parts are the Glory of Humanity. Good Parts may adorn a private Man. The ſame fire may be in the Waxen Taper which is in the gilded Torch, but is not equal either in Quantity or Advancement. Let the World ſpeak well of me, and I will ne<g ref="char:EOLhyphen"/>ver care, though it does not ſpeak much.</p>
+            </div>
+            <div type="part">
+               <pb n="124" facs="tcp:58158:69"/>
+               <head>Of Monarchy.</head>
+               <p>THE firſt, moſt Anci<g ref="char:EOLhyphen"/>ent, moſt General, and moſt Approv'd, was the Government of one, Ruling by Juſt Laws, called Monar<g ref="char:EOLhyphen"/>chy. And <hi>Ariſtotle</hi> tells us in few words, <hi>That a Magiſtrate, or Prince, is the keeper of Right and Equity;</hi> but the ſame is beſt taught by St. <hi>Paul,</hi> who ex<g ref="char:EOLhyphen"/>preſſeth the Cauſe efficient and final; (that is) <hi>by whom Ma<g ref="char:EOLhyphen"/>giſtrates and Princes are or<g ref="char:EOLhyphen"/>dain'd, together with their Du<g ref="char:EOLhyphen"/>ties and Offices.</hi> A Magiſtrate is the Miniſter of God for thy Good; but if thou doe evil,
+<pb n="125" facs="tcp:58158:69"/>fear, <hi>For he beareth not the Sword for nought. He is the Miniſter of God, to take ven<g ref="char:EOLhyphen"/>geance on him that doeth evil;</hi> Rom. 13. v. 4. He alſo teach<g ref="char:EOLhyphen"/>eth in the ſame place, <hi>that every Soul ought to be ſubject to the Higher Powers, becauſe they are by God ordain'd; and that whoſoever reſiſteth that Power, reſiſteth God the Giver and Fountain thereof.</hi> Ver. 1, 2. <hi>And ſhall not only be ſubject to the Judgment and Condemnati<g ref="char:EOLhyphen"/>on of Man, but of God; for you muſt be ſubject</hi> (ſaith he) <hi>not be<g ref="char:EOLhyphen"/>cauſe of Wrath only, but alſo for Conſcience ſake.</hi> Ver. 5.</p>
+               <p>The Examples are not to be numbred of God's puniſh<g ref="char:EOLhyphen"/>ing thoſe who have re<g ref="char:EOLhyphen"/>ſiſted
+<pb n="126" facs="tcp:58158:70"/>Authority by God or<g ref="char:EOLhyphen"/>dained and eſtabliſhed: Nei<g ref="char:EOLhyphen"/>ther ought any Subject there<g ref="char:EOLhyphen"/>fore to reſiſt the Power of Kings, becauſe they may be taxed with injuſtice or cruelty, for it pleaſed God ſometimes to puniſh his People by a Ty<g ref="char:EOLhyphen"/>rannous hand: And the Com<g ref="char:EOLhyphen"/>mandments of Obedience are without diſtinction. The Pro<g ref="char:EOLhyphen"/>phets and Chriſt himſelf ſubje<g ref="char:EOLhyphen"/>cted themſelves to the Power of Magiſtrates. <hi>Chriſt comman<g ref="char:EOLhyphen"/>ded the Dues to Caeſar ſhould le given unto him; and he paid tribute for himſelf and</hi> Peter. Jerem. 29. v. 7. <hi>Jeremiah</hi> commanded the <hi>Iſraelites</hi> (e<g ref="char:EOLhyphen"/>ven thoſe that were Captives under Heathen Kings) to pray
+<pb n="127" facs="tcp:58158:70"/>for them, and the Peace of <hi>Ba<g ref="char:EOLhyphen"/>bylon:</hi> So <hi>Abraham</hi> pray'd for <hi>Abimelech,</hi> and <hi>Jacob</hi> bleſſed the King of <hi>Aegypt;</hi> and it is acceptable in the ſight of our Saviour (ſaith St. <hi>Paul</hi>) that you make Supplications and Prayers for Kings, and for all that are in Authority.</p>
+               <p>And if for ſuch Kings as were Idolatrous, much more for Chriſtian Kings and Ma<g ref="char:EOLhyphen"/>giſtrates; and ſo much did St. <hi>Chriſoſtome,</hi> in his Homily to the people, prefer Monarchical Government, that he rather commended the Rule of Kings (though Tyrants,) than that they ſhould be wanting: <hi>Preſtat Regem Tyrannum habere, quam nullum,</hi> Better a Tyran<g ref="char:EOLhyphen"/>nous
+<pb n="128" facs="tcp:58158:71"/>King, than no King: And if they be good Kings, (which is generally preſuppoſed,) then is there no liberty more ſafe than to ſerve them: And cer<g ref="char:EOLhyphen"/>tainly howſoever it may be diſputed, yet it is ſafer to live under one Tyrant, than un<g ref="char:EOLhyphen"/>der ten Thouſand Tyrants; under a wiſe man that is Cruel, than under the barba<g ref="char:EOLhyphen"/>rous Cruelty of the Multitude.</p>
+               <p>For as <hi>Ageſilaus</hi> anſwered a Citizen of <hi>Sparta,</hi> that de<g ref="char:EOLhyphen"/>ſired an Alteration of the Go<g ref="char:EOLhyphen"/>vernment, <hi>viz.</hi> That that kind of Government, which a man would diſdain in his own houſe, were very unfit to go<g ref="char:EOLhyphen"/>vern great Regions by.</p>
+            </div>
+            <div type="part">
+               <pb n="129" facs="tcp:58158:71"/>
+               <head>Experience in Arms is the Original of true Nobility.</head>
+               <p>THe Romans made a Law that no Man ſhould be admitted into the Council, or Civil Magiſtracy, without he had firſt ſerved ten years in the Wars; and the reaſon was, that they, by undergo<g ref="char:EOLhyphen"/>ing the Severities and Difficul<g ref="char:EOLhyphen"/>ties thereof, might be the better Judges how to pre<g ref="char:EOLhyphen"/>vent it in times of Peace. And we ſee, that by experience in Arms Kingdoms ſubſiſt, Ju<g ref="char:EOLhyphen"/>ſtice flouriſhes, and true No<g ref="char:EOLhyphen"/>bility hath its Being: For be<g ref="char:EOLhyphen"/>fore
+<pb n="130" facs="tcp:58158:72"/>Wars were known, all Men were of an equal Birth, and the difference of Eſtates and Offices, made the ſole diſtinction of perſons.</p>
+               <p>War, in ancient time, was neither the Refuge of the wretched, nor the Sanctuary of the baniſhed; and the <hi>Ro<g ref="char:EOLhyphen"/>mans</hi> received none but cho<g ref="char:EOLhyphen"/>ſen Men into their ſervice, who were obliged to put themſelves in good Equipage, and for the ſpace of twenty years ſerve upon their own expence, either amongſt the Horſe or Foot; and when they had fulfilled the term of their Service, they received from the Commonwealth Rewards ſuitable to the Merits of their
+<pb n="131" facs="tcp:58158:72"/>Actions; either by being pro<g ref="char:EOLhyphen"/>moted to Honour, or en<g ref="char:EOLhyphen"/>dow'd with the Lands of thoſe they conquer'd.</p>
+               <p>Beſides, Experience puts a difference between thoſe that have carried Arms, and ſuch as have not; for from the Repu<g ref="char:EOLhyphen"/>tation of their brave Exploits, which they had engraven on their Shields, as a mark of the Nobility which they had ac<g ref="char:EOLhyphen"/>quir'd by their Valour; from thence, I ſay, we have Eſcut<g ref="char:EOLhyphen"/>cheons, and the Titles of Knight, Eſquire, &amp; Gentleman. Such, I ſay, were of chiefeſt note amongſt the Nobility, and from them are deſcended the illuſtrious Families of great Lords, who carry Coronets
+<pb n="132" facs="tcp:58158:73"/>over their Arms, and who, in proceſs of time, have chan<g ref="char:EOLhyphen"/>ged their ancient Titles in<g ref="char:EOLhyphen"/>to thoſe at preſent, according to the new Dignities where<g ref="char:EOLhyphen"/>with Sovereigns have been pleaſed to honour them; as of Duke, Marqueſs, Earl, Viſ<g ref="char:EOLhyphen"/>count, Baron, and the like. Experience in Arms hath al<g ref="char:EOLhyphen"/>ſo raiſed to the Throne many of low and deſpicable birth; King <hi>David</hi> was a Sheepherd; and <hi>Saul,</hi> his Predeceſſour, thought it no ſcorn to ſeek his Father's Aſſes. <hi>Antipater,</hi> King of <hi>Macedonia,</hi> was the Son of a Juggler; <hi>Agathocles,</hi> King of <hi>Syracuſe,</hi> of a Potter; <hi>Cambiſes,</hi> King of <hi>Perſia,</hi> was ſaid to be the Son of a Car<g ref="char:EOLhyphen"/>ter;
+<pb n="133" facs="tcp:58158:73"/>King <hi>Sibaris</hi> was a Ser<g ref="char:EOLhyphen"/>vant in an Inn; and <hi>Ottoman,</hi> the raiſer of that mighty Fa<g ref="char:EOLhyphen"/>mily who at this time poſſeſ<g ref="char:EOLhyphen"/>ſes the greateſt Empire in the World, was at firſt no better than a Groom, or one who drove Camels. Theſe Exam<g ref="char:EOLhyphen"/>ples oblige us to acknowledge, that it is only Experience in Arms that renders Men wor<g ref="char:EOLhyphen"/>thy of the moſt glorious em<g ref="char:EOLhyphen"/>ployments; and that in the Profeſſion of Arms is likewiſe to be learnt that brave gen<g ref="char:EOLhyphen"/>tile way of Demeanour, which is no where to be found but amongſt the Nobility and Gentry. There every thing goes by Honour, without Lu<g ref="char:EOLhyphen"/>cre or Profit. There Men
+<pb n="134" facs="tcp:58158:74"/>learn to be generous, liberal and faithfull. There are no<g ref="char:EOLhyphen"/>thing to be found in the Hi<g ref="char:EOLhyphen"/>ſtories of the greateſt Cap<g ref="char:EOLhyphen"/>tains, but acts of Honour and Vertue.</p>
+               <p>The Valour of <hi>Alexander,</hi> the Prudence of <hi>Caeſar,</hi> the Modeſty of <hi>Tyberius,</hi> the Ju<g ref="char:EOLhyphen"/>ſtice of <hi>Aulus Fulvius,</hi> the Clemency of <hi>Auguſtus,</hi> the Magnificency of <hi>Titus Veſpa<g ref="char:EOLhyphen"/>ſian,</hi> the Chaſtity of <hi>Scipio Affricanus,</hi> and the Integrity of <hi>Atillus Regulus,</hi> are ſuffi<g ref="char:EOLhyphen"/>cient proofs of what I have alledged.</p>
+               <p>Yet nevertheleſs, without flattery let it be ſpoken, to the praiſe of this our Nation, It is no where to be found in
+<pb n="135" facs="tcp:58158:74"/>Hiſtories, either ancient or modern, that ever <hi>Engliſh</hi> Va<g ref="char:EOLhyphen"/>lour gave place to any other Nation in the World, but al<g ref="char:EOLhyphen"/>ways rank'd it ſelf in the Front. What wonderfull ex<g ref="char:EOLhyphen"/>ploits have there been done by <hi>Engliſh</hi> Soldiery, as the moſt famous Battels of <hi>Craeſſy, Agincourt,</hi> and <hi>Poictiers</hi> can bear me witneſs? And to the eternal Honour of <hi>Edward</hi> the third, and his Son, the Prince of <hi>Wales,</hi> famous by the Ti<g ref="char:EOLhyphen"/>tle of the Black Prince, I may with Juſtice ſay it, that they with their ſmall numbers of Men, ſhew'd more true Va<g ref="char:EOLhyphen"/>lour in fighting their Battels, and gaining their Victories, than ever <hi>Alexander</hi> with his
+<pb n="136" facs="tcp:58158:75"/>
+                  <hi>Parmenio,</hi> and the reſt of his great Captains, did, in con<g ref="char:EOLhyphen"/>quering the whole World.</p>
+               <p>Therefore let not <hi>Engliſh</hi> Valour degenerate now; let not the charming Beauty of <hi>Venus</hi> cauſe us to forget <hi>Mars;</hi> for I am ſure the courageous Heart takes more delight to be in the Fields of War, than in the Arms of a <hi>Dalilah;</hi> for the Actions of the former crown us with a laſting Fame, but the latter only load us with Scandal and Ignominy.</p>
+            </div>
+            <trailer>THE END.</trailer>
+            <pb facs="tcp:58158:75"/>
+         </div>
+      </body>
+   </text>
+</TEI>
